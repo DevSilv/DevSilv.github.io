@@ -1,0 +1,56 @@
+---
+---
+
+<!doctype html>
+
+<html lang="{{ site.html-lang }}">
+
+<head>
+    <meta charset="{{ site.meta-charset }}">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="description" content="{{ site.meta-description }}">
+    <link rel="stylesheet" href="{{ site.data.internal-uris.css.default }}">
+    <script src="{{ site.data.external-uris.jquery }}"></script>
+    <script src="{{ site.data.internal-uris.js.display-search-results }}"></script>
+    <script src="{{ site.data.internal-uris.js.search }}"></script>
+    {% if layout %}
+        {% if layout.pagecss %}
+            {% for file in layout.pagecss %}
+                <link rel="stylesheet" href="{{ file }}">
+            {% endfor %}
+        {% endif %}
+        {% if layout.postcss %}
+            {% for file in layout.postcss %}
+                <link rel="stylesheet" href="{{ file }}">
+            {% endfor %}
+        {% endif %}
+        {% if layout.tagcss %}
+            {% for file in layout.tagcss %}
+                <link rel="stylesheet" href="{{ file }}">
+            {% endfor %}
+        {% endif %}
+    {% endif %}
+    {% if page %}
+        {% if page.cssfiles %}
+            {% for file in page.cssfiles %}
+                <link rel="stylesheet" href="{{ file }}">
+            {% endfor %}
+        {% endif %}
+        {% if page.title %}
+        <title>{{ page.title }} | {{ site.title }}</title>
+        {% else %}
+        <title>{{ site.title }}</title>
+        {% endif %}
+    {% endif %}
+</head>
+
+<body>
+    <div class="container">
+        {{ content }}
+        <footer class="footer">
+            <span>copyright &copy; 2018 silvuss</span> | <span>all articles (thoughts) in this place has <strong>no license</strong>. for more information, see <a href="https://choosealicense.com/no-permission/">this github's guide</a>.</span> | <span>the RSS icon comes from <a href="https://pixabay.com/en/rss-feed-icon-atom-feed-button-2027180/">pixabay.com</a></span>
+        </footer>
+    </div>
+</body>
+
+</html>
