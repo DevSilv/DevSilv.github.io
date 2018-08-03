@@ -1,17 +1,21 @@
 ---
 layout: page
-tagcss: "/css/tag.css"
 ---
 
-
-<h1>{{ page.title }} <span class="tag">{{ page.tag }}</span></h1>
-<ul>
-    {% for post in site.tags[page.tag] %}
-        <li class="article">
-            <h3>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-            </h3>
-            {{ post.excerpt }}
-        </li>
-    {% endfor %}
-</ul>
+<article class="col">
+    <h1 class="text-center mb-4">
+        {{ page.title }} <span class="bg-light pt-1 pb-1 pl-2 pr-2 border border-primary">{{ page.tag }}</span>
+    </h1>
+    <ul class="list-unstyled list-group list-group-flush">
+        {% for post in site.tags[page.tag] %}
+            <li class="list-group-item">
+                <h3>
+                    <a   href="{{ post.url }}">{{ post.title }}</a>
+                </h3>
+                <div class="mb-4 mt-4">
+                    {{ post.excerpt }}
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+</article>

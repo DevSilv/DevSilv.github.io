@@ -3,14 +3,16 @@ layout: page
 postcss: "/css/post.css"
 ---
 
-<ul class="tag-list">
-    {% if page.tags %}
-        {% for tag in page.tags %}
-            <li>
-                <a href="{{ site.url }}/tags/{{ tag }}.html" class="tag-list__tag">{{ tag }}</a>
-            </li>
-        {% endfor %}
-    {% endif %}
-</ul>
-<h1>{{ page.title }}</h1>
-{{ content }}
+<article class="col">
+    <ul class="d-flex justify-content-center list-unstyled">
+        {% if page.tags %}
+            {% for tag in page.tags %}
+                <li class="ml-3 mr-3 bg-light text-light pt-1 pb-1 pl-2 pr-2 border border-primary">
+                    <a href="{{ site.url }}/tags/{{ tag }}.html">{{ tag }}</a>
+                </li>
+            {% endfor %}
+        {% endif %}
+    </ul>
+    <h1 class="text-center mb-5">{{ page.title }}</h1>
+    {{ content }}
+</article>
