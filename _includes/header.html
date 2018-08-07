@@ -1,5 +1,5 @@
-<header class="row bg-light sticky-top">
-    <div class="col-12">
+<header class="row bg-light sticky-top justify-content-sm-center">
+    <div class="col-sm-10">
         <div class="d-flex justify-content-between flex-wrap align-items-center">
             <div class="mt-1 mb-1 ml-2 mr-2">
                 {% if include.wide == "true" %}
@@ -15,7 +15,7 @@
                         onkeyup="search('{{ site.data.strings.search.no-search-results }}');">
                     <ul style="display: none; position: absolute; width: 200px; z-index: 1;" class="list-group list-unstyled" id="search-form__results-list"></ul>
                 </form>
-                <div class="mt-1 mb-1 ml-2 mr-2">
+                <div class="mt-1 mb-1 ml-sm-5 ml-2 mr-2">
                     RSS:
                     <a href="{{ site.data.internal-uris.xml.feed }}">
                         <img src="{{ site.data.internal-uris.images.rss }}" width="30px" height="30px">
