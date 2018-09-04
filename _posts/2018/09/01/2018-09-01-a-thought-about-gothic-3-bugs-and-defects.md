@@ -26,24 +26,36 @@ i divided the advantages into three groups: game play, visual and verbal.
 
 ### A. game play advantages
 
-1. **ascending sounds.** specifically talks and animals sounds.
+1. **ascending sounds.** specifically talks and creatures sounds.
+
 2. **sounds from cover.** specifically talks. i know somewhere is a character, even though i do not currently see it.
+
 3. **variable weather.**
+
 4. **friend animals.** like hares ([rabbits](http://www.worldofgothic.com/gothic3/?go=g3insert_animals)?) and deers.
+
 5. **the possibility to choose between good and evil.** for instance, you can kill a deer (what will possibly give you meat) or not (what will let the deer happily romping).
+
 6. **my steps can wake the characters.** they wake and immediately afterwards they can go to sleep again!
+
+7. **creatures sometimes attack each other.**
 
 ### B. visual advantages
 
 1. **falling snow.**
+
 2. **mist.** specifically in the morning.
+
 3. **nights.** specifically shadows from bonfire light.
+
 4. **arrows poking from the characters bodies.** although it is probably only visual advantage, they probably do no additional hurt as if they dropped away.
 
 ### C. verbal advantages
 
 1. **sounds and voices.** specifically animal sounds (like howling of wolves), snow crunching.
+
 2. **music.** very moody. but the main things is that it excellent fits the moment in the game – it changes when fight starts, it changes when fight ends, it changes when i go to the ice land, and so on.
+
 3. **the sound of drawing a bow.** lovely! specifically lovely to hear when trying to dodge the arrow.
 
 ## the bugs and defects
@@ -57,7 +69,7 @@ i divided the bugs and defects into two groups: game play and visual.
 
 ### A. game play bugs and defects
 
-1. **the characters health is recovered to full after saving.** most possibly both the normal save and the quick save. it may be helpful in case of friends, but is annoying in case of enemies (e.g. tough animals like shadowbeasts). it could be a part of a broader feature (not a bug) of resetting properties of the world and characters after saving. understood this way, it may be a helpful. consider for example the case when you accidentally hit a friend character (e.g. in a fight). i do not know for sure, but i feel that he/she is not your friend any more (unless you cast the amnesia spell).
+1. **the characters health is recovered to full after saving.** most possibly both the normal save and the quick save. it may be helpful in case of friends, but is annoying in case of enemies (e.g. tough creatures like shadowbeasts). it could be a part of a broader feature (not a bug) of resetting properties of the world and characters after saving.
 
 2. **some characters bodies disappear with time.** i put it in the game play bugs, because it affects the possibility of gathering the character items.
 
@@ -71,13 +83,27 @@ i divided the bugs and defects into two groups: game play and visual.
 
 7. **when the nameless hero (or any character?) goes over the embers or the fireplace, the health is not lost.**
 
-8. **the bodies of killed characters do not disappear from people's and orcs' houses and camps.** maybe animals and creatures should not remove it, but people and orcs should.
+8. **the bodies of killed characters do not disappear from people's and orcs' houses and camps.** maybe creatures should not remove it, but people and orcs should.
 
 9. **when you attack a character from a group of people or orcs, the rest of the group sometimes do not react.** of course, it is very helpful in the attack – it lets you draw a character away and fight alone. i think that it might be just an assumption of the game.
+
+10. **when attacked from a certain direction/side, characters sometimes do not move – that is, with their normal moving.** it is uncertain for me if this is a defect to describe. maybe it is just the result of animals position against obstacles – and it is more or less clear for me that the positions are hard to predict.
+
+11. **when attacked, characters sometimes move through obstacles – that is, slide over the surface.** this bug is related with the defect about characters not moving when attacked.
+
+12. **the skill 'large weapons' in polish translation has two different names: sometimes just 'large weapons', and sometimes (loosely translated) 'fighting axe skill'.**
+
+13. **when a characters got hit by a friend character, they start to fight with each other.** it is uncertain for me if this is a bug or defect. maybe it is a game assumption to make it more real. on the other hand, i do not know whether such a fight ends with death, or just with stealing.
+
+14. **you can switch a weapon for the crossbow, but not in reverse.**
 
 ### B. visual bugs and defects
 
 1. **in a house in vengard the nameless hero has to go through an alchemist's bench when you click on it trying to make a potion and he stays on the wrong side of it.** in a "normal moving" the bug does not exist (he cannot go through this bench).
+
+## other observations
+
+1. **i do not understand why the tasks are getting done even if i had not got them.** for example, after 'liberating nordmar' (killing orks from 5 camps), the five 'liberate nordmar!' tasks are done, even if i did not got them, because i did not complete 'the power of the ancestors' task (if i did, they would be given to me by kerth).
 
 ## sources
 
