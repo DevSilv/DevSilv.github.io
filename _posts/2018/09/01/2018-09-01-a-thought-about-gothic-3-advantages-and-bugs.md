@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "a thought about gothic 3 bugs and defects"
+title: "a thought about gothic 3 advantages and bugs"
 date: 2018-09-01
 ---
 
@@ -12,19 +12,16 @@ the lists could be updated.
 
 ## the advantages
 
-the advantages that i have decided to describe are the beautiful moments, in which:
+advantages that i have decided to describe are the beautiful moments, in which i think that the gameplay suits or exceeds my needs. this includes:
+- being more or less intuitive for me (it is very personal);
+- being beautiful this or that way for me;
+- letting me feel like a winner;
+- letting me empathize with heroes and the world as a whole;
+- getting close to "reality" this or that way ("reality" as reality can be understood in an RPG game).
 
-1. i think that the game play suits my needs, which contains:
-    - being more or less intuitive for me (it is very personal);
-    - being beautiful this or that way for me;
-    - letting me feel like a winner;
-    - letting me empathize with heroes and the world as a whole;
-    - getting close to "reality" this or that way ("reality" as reality can be understood in a role-playing game).
-2. i think that the game play exceeds my needs in some way.
+i divided the advantages into three groups: gameplay, visual and verbal.
 
-i divided the advantages into three groups: game play, visual and verbal.
-
-### A. game play advantages
+### A. gameplay advantages
 
 1. **ascending sounds.** specifically talks and creatures sounds.
 
@@ -39,6 +36,8 @@ i divided the advantages into three groups: game play, visual and verbal.
 6. **my steps can wake the characters.** they wake and immediately afterwards they can go to sleep again!
 
 7. **creatures sometimes attack each other.**
+
+8. **the balance between: (A) gaining the experience, (B) the number of killed characters, (C) the number of completed tasks and (D) the 'importance' of completed tasks.** By 'importance of a task' i understand how this task is important for me in the context of plots (both main plot and side plots).
 
 ### B. visual advantages
 
@@ -61,17 +60,16 @@ i divided the advantages into three groups: game play, visual and verbal.
 ## the bugs and defects
 
 the bugs and defects i have decided to describe have to fulfil two conditions:
-
 1. i have discovered / encountered them myself while playing;
 2. i considered them as rather-easy to fix (or sometimes just improve) (i am a programmer, although i do not develop games).
 
-i divided the bugs and defects into two groups: game play and visual.
+i divided the bugs and defects into two groups: gameplay and visual.
 
-### A. game play bugs and defects
+### A. gameplay bugs and defects
 
 1. **the characters health is recovered to full after saving.** most possibly both the normal save and the quick save. it may be helpful in case of friends, but is annoying in case of enemies (e.g. tough creatures like shadowbeasts). it could be a part of a broader feature (not a bug) of resetting properties of the world and characters after saving.
 
-2. **some characters bodies disappear with time.** i put it in the game play bugs, because it affects the possibility of gathering the character items.
+2. **some characters bodies disappear with time.** i put it in the gameplay bugs, because it affects the possibility of gathering the character items.
 
 3. **you can see the characters from a longer distance using the bow than using the sword.** this may not be a bug, but an assumption of the game. without it, the fights will possibly be too hard to balance: you need to very good hear or very good see a character (personally, not in a game) to have a good chance to hit it. on the one hand, the sound is possibly similar on different devices and drivers, but on the other one the display could be very different – just think of a bad lighting in the room, or a lower game details setting.
 
@@ -101,11 +99,15 @@ i divided the bugs and defects into two groups: game play and visual.
 
 1. **in a house in vengard the nameless hero has to go through an alchemist's bench when you click on it trying to make a potion and he stays on the wrong side of it.** in a "normal moving" the bug does not exist (he cannot go through this bench).
 
+2. **the animation of roasting does not depend on whether i have something to roast or not.** if i have got a raw meat, the hero brings out a roast, and if i have not, the hero also brings out a roast.
+
 ## other observations
 
 1. **i do not understand why the tasks are getting done even if i had not got them.** for example, after 'liberating nordmar' (killing orks from 5 camps), the five 'liberate nordmar!' tasks are done, even if i did not got them, because i did not complete 'the power of the ancestors' task (if i did, they would be given to me by kerth).
 
-## sources
+2. **certain lines of dialogues do not reflect the emotions that the characters express (or should express, according to the situation).**
+
+## some sources
 
 - http://pl.gothic.wikia.com/wiki/Gothic_i_ArcaniA
 - http://www.worldofgothic.com/
