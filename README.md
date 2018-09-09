@@ -23,7 +23,7 @@ also note that i can add a lincese in the near future if it would be relevant to
 
 this project does not require any installation. you can use it simply by opening the following URL in your browser: https://silvuss.github.io/
 
-## 3. the technologies and conventions used in this project
+## 3. the technologies used in this project
 
 currently, the following technologies are used in this project:
 - markup languages:
