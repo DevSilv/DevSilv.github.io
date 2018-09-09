@@ -1,17 +1,17 @@
 # silvuss-thoughts
 
-this project contains my (silvuss's) thoughts on programming, and maybe some other topics.
+this website contains my (silvuss's) thoughts. you can find here for example thoughts on programming, philosophy and AI.
 
 ## table of contents
 
-1. [a copyright note](https://github.com/silvuss/silvuss.github.io#a-copyright-note)
-2. [installation and usage](https://github.com/silvuss/silvuss.github.io#installation-and-usage)
-3. [the technologies and conventions used in this project](https://github.com/silvuss/silvuss.github.io#the-technologies-and-conventions-used-in-this-project)
-4. [FAQ](https://github.com/silvuss/silvuss.github.io#faq)
+1. [a copyright note]()
+2. [installation and usage]()
+3. [the technologies and conventions used in this project]()
+4. [FAQ]()
 
-## a copyright note
+## 1. a copyright note
 
-note that "silvuss-thoughts" (this project) has currently **no license**, as explained in [this github guide on licensing projects](https://choosealicense.com/no-permission/).
+note that this "silvuss-thoughts" project (this repository) has currently **no license**, as explained in [this github guide on licensing projects](https://choosealicense.com/no-permission/).
 
 for your convenience i am including below a quote from that site:
 
@@ -19,36 +19,37 @@ for your convenience i am including below a quote from that site:
 
 also note that i can add a lincese in the near future if it would be relevant to the needs of this project.
 
-## installation and usage
+## 2. installation and usage
 
 this project does not require any installation. you can use it simply by opening the following URL in your browser: https://silvuss.github.io/
 
-## the technologies and conventions used in this project
+## 3. the technologies and conventions used in this project
 
 currently, the following technologies are used in this project:
-- markup languages: **HTML 5** and [**markdown**]()
-- style sheet language: **CSS 3**
-- template language: [**liquid**](https://shopify.github.io/liquid/)
+- markup languages:
+  - **HTML** in version 5
+  - [**markdown**](https://guides.github.com/features/mastering-markdown/) in the newest possible version available on github (because this website can be updated)
+- style sheet languages:
+  - **CSS** in version 3
+- template languages:
+  - [**liquid**](https://shopify.github.io/liquid/) in the newest possible version available on github (because this website can be updated)
+- programming languages and libraries:
+  - [**javascript**](https://developer.mozilla.org/pl/docs/Web/JavaScript) – ECMAscript in version most probably not above 6
+  - [**jquery**](https://jquery.com/) in version 3.3.1
 
 also note that the following technologies are used across github:
 - [**jekyll**](https://jekyllrb.com/) is used as a site generator;
-- [**github flavored markdown**]() (GFM) is used as a markdown dialect
+- [**github flavored markdown**](https://github.github.com/gfm/) (GFM) is used as a markdown dialect.
 
-## FAQ
+## 4. FAQ
 
 ### is this a blog?
 
-you may call this place a blog if you want to, but i do not consider it as such. i would name it "a place for my thoughts" or similar. but i will always use terms that are usually used in the context of blogs, such as "posts" and "articles". and additionaly, i will treat it just as a blog, when i will be comparing it to other blogs.
+you may call this place a blog if you want to, but i do not consider it as such. i would name it "a place for my thoughts" or similar. but – i will always use terms that are usually used in the context of blogs, such as "posts" and "articles". and additionaly, i will treat it as a blog if i will be comparing it to other blogs.
 
 ### why you do not start sentences with capital letters?
 
-here (and possibly in every github project of mine) i use a convention of not using capital letters beside acronyms (e.g. MS, VCS). for more details, see [this section on a github's wiki of mine](https://github.com/silvuss/silvuss-jsgame-1/wiki/conventions-that-you-should-use-in-this-project#text-writing-and-formatting-conventions-that-you-should-use-in-this-project).
-
-### in the beginning of your posts i saw a version number. what is it?
-
-every post of mine is assigned a version number. it is created according to a convention called [**semantic versioning**](https://semver.org/).
-
-for more details on how i have chosen to use versions, see [the versioning system of my articles](https://silvuss.github.io/2018/07/10/my-versioning-system.html).
+here (and possibly in every github project of mine) i use a convention of not using capital letters beside acronyms (e.g. MS, VCS). for more details, see [this article of mine](https://silvuss.github.io/2018/08/01/my-grammar-ortography-writing-style.html).
 
 ### i have noticed that the content of your post which i read earlier has changed. why?
 
