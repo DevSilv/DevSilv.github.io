@@ -16,7 +16,7 @@ the bugs and defects that i decided to describe have had to fulfil two condition
 1. i have discovered / encountered them myself while playing;
 2. i consider them as rather-easy to fix (or sometimes just improve) (i am a programmer, although i do not develop games).
 
-i divided the bugs and defects into two groups: 'gameplay' and 'visual'. each group consists of four aspects: 'environment', 'characters', 'hero' and all others.
+i divided the bugs and defects into two groups: 'gameplay' and 'visual'. each group consists of four aspects: 'environment', 'characters', 'hero' and all other things.
 
 ### A. gameplay bugs and defects
 
@@ -74,7 +74,7 @@ i divided the bugs and defects into two groups: 'gameplay' and 'visual'. each gr
 
 5. **when you try to buy armors from the rebels in okara, there is no information about how many points of reputation you need to have to be able to buy it.** the message only says that you need to have a certain percent of reputation points, and does not tell about the needed amount of them.
 
-#### A.IV other
+#### A.IV other things
 
 1. \-\-\-
 
@@ -96,7 +96,7 @@ i divided the bugs and defects into two groups: 'gameplay' and 'visual'. each gr
 
 3. **when you are picking up items from the dead characters body, there is no picking animation.** there could be an animation like when you are picking up herbs.
 
-#### B.IV other
+#### B.IV other things
 
 1. \-\-\-
 
@@ -114,7 +114,7 @@ i divided the bugs and defects into two groups: 'gameplay' and 'visual'. each gr
 
 1. \-\-\-
 
-#### B.IV other
+#### B.IV other things
 
 1. **i do not understand why the tasks are getting done even if i had not got them.** for example, after 'liberating nordmar' (killing orks from 5 camps), the five 'liberate nordmar!' tasks are done, even if i did not got them, because i did not complete 'the power of the ancestors' task (if i did, they would be given to me by kerth).
 
