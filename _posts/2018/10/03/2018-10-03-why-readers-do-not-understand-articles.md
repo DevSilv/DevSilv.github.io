@@ -11,8 +11,6 @@ i would like to talk about texts in general the reasons come from my own experie
 
 i will try to describe texts the most generally, independently of their topics – that is, they could range from general and philosophical, like those on https://medium.com/, to specialized and technical, like those on https://developer.mozilla.org/. by a "text" i understand a blog post, a dictionary article, and all kind of text in a more or less compact form. the reasons may probably also apply to longer kinds of texts, such as books, essays and the like, maybe even poetry (maybe just in a slightly changed form).
 
-i have tried to order the reasons from most to least involving the understanding of the text.
-
 ## the reasons
 
 ### 1. there are words/terms that the reader does not know.
