@@ -85,7 +85,7 @@ for those who does not know YAGNI, it is an acronym of ["You Aren't Gonna Need I
 
 ### 12. if you describe several issues, mind the proportions.
 
-if the article discusses several issues of the main subject, try to keep proportions in the length of their descriptions. for example, if the first and the second issue are described in one paragraph each, try to include the third and fourth in no more than three each. otherwise, some issues may seem to be more important, just because you described it in a more extensive way.
+if the article discusses several issues of the main subject, try to keep proportions in the length of their descriptions. for example, if the first and the second issue are described in one paragraph each, try to include the third and fourth in no more than three each. otherwise, some issues may seem to be more important, just because you described them in a more extensive way.
 
 ### 13. choose the words that you already use.
 
