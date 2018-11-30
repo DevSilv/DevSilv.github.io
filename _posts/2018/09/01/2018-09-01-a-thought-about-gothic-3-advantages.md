@@ -1,115 +1,115 @@
 ---
 layout: post
-title: "a thought about gothic 3 advantages"
+title: "A thought about Gothic 3 advantages"
 date: 2018-09-01
 ---
 
-[gothic 3](http://www.gothic3.com/), a 2006 role-playing PC game developed by [piranha bytes](https://www.igdb.com/companies/piranha-bytes), may be considered [good](http://www.metacritic.com/game/pc/gothic-3). this means that it contains bugs and defects, as well as advantages. i find this game very playable, so i decided to write this series of two thoughts, in which i will describe some advantages, as well as [bugs and defects]() that gothic 3 has.
+[Gothic 3](http://www.Gothic3.com/), a 2006 role-playing PC game developed by [Piranha Bytes](https://www.igdb.com/companies/piranha-bytes), may be considered [good](http://www.metacritic.com/game/pc/Gothic-3). This means that it contains bugs and defects, as well as advantages. I find this game very playable, so I decided to write this series of two thoughts, in which I will describe some advantages, as well as [bugs and defects]() that Gothic 3 has.
 
-gothic 3 version that i am playing: **pb/cpt/sb rvc1.6 iv1.60.29**. the lists could be updated.
+Gothic 3 version that I am playing: **pb/cpt/sb rvc1.6 iv1.60.29**. The lists could be updated.
 
-## the advantages
+## The advantages
 
-advantages that i have decided to describe are the beautiful moments, in which i think that the gameplay suits or exceeds my needs. this includes:
+Advantages that I have decided to describe are the beautiful moments, in which I think that the gameplay suits or exceeds my needs. This includes:
 - being more or less intuitive for me (it is very personal);
 - being beautiful this or that way for me;
 - letting me feel like a winner;
 - letting me empathize with heroes and the world as a whole;
 - getting close to "reality" this or that way ("reality" as reality can be understood in an RPG game).
 
-i divided the advantages into three groups: 'gameplay', 'visual' and 'audio'. each group consists of four aspects: 'environment', 'characters', 'hero' and all others.
+I have divided the advantages into three groups: "gameplay", "visual" and "audio". Each group consists of four aspects: "environment", "characters", "hero" and "all others".
 
-### A. gameplay advantages
+### A. Gameplay advantages
 
-#### A.I environment
+#### A.I Environment
 
-1. **ascending sounds.** specifically talks and creatures sounds.
+1. **Ascending sounds.** Specifically talks and creatures sounds.
 
-2. **sounds from cover.** specifically talks. i know somewhere is a character, even though i do not currently see it.
+2. **Sounds from cover.** Specifically talks. I know somewhere is a character, even though I do not currently see it.
 
-3. **variable weather.**
+3. **Variable weather.**
 
-4. **you can pick herbs and mushrooms!**
+4. **You can pick herbs and mushrooms!**
 
-#### A.II characters
+#### A.II Characters
 
-1. **friend animals.** like hares ([rabbits](http://www.worldofgothic.com/gothic3/?go=g3insert_animals)?) and deers.
+1. **Friend animals.** Like hares ([rabbits](http://www.worldofGothic.com/Gothic3/?go=g3insert_animals)?) and deers.
 
-2. **my steps can wake the characters.** they wake and immediately afterwards they can go to sleep again!
+2. **My steps can wake the characters.** They wake and immediately afterwards they can go to sleep again!
 
-3. **creatures sometimes attack each other.**
+3. **Creatures sometimes attack each other.**
 
-4. **characters react when i pull the sword out.**
+4. **Characters react when I pull the sword out.**
 
-5. **i can give potions to characters.**
+5. **I can give potions to characters.**
 
-6. **characters are able to drink their own potions.** certainly healing potions, but mana? and are they able to drink the potions that i have given to them?
+6. **Characters are able to drink their own potions.** Certainly healing potions, but mana? And are they able to drink the potions that I have given to them?
 
-#### A.III hero
+#### A.III Hero
 
-1. **the possibility to choose between good and evil.** for instance, you can kill a deer (what will possibly give you meat) or not (what will let the deer happily romping).
+1. **The possibility to choose between good and evil.** For instance, you can kill a deer (what will possibly give you meat) or not (what will let the deer happily romping).
 
-2. **the balance between: (A) gaining the experience, (B) the number of killed characters, (C) the number of completed tasks and (D) the 'importance' of completed tasks.** By 'importance of a task' i understand how this task is important for me in the context of plots (both main plot and side plots).
+2. **The balance between: (A) gaining the experience, (B) the number of killed characters, (C) the number of completed tasks and (D) the "importance" of completed tasks.** By "importance of a task" I understand how this task is important for me in the context of plots (both main plot and side plots).
 
-#### A.IV other things
-
-1. \-\-\-
-
-### B. visual advantages
-
-#### A.I environment
-
-1. **falling snow.**
-
-2. **mist.** specifically in the morning.
-
-3. **nights.** specifically shadows from bonfire light.
-
-4. **you can saw (a log), and during this there is sawdust falling.**
-
-5. **colors of the world in the light of the sunset.**
-
-#### A.II characters
-
-1. **arrows poking from the characters bodies.** although it is probably only visual advantage, they probably do no additional hurt as if they dropped away.
-
-2. **the animation of characters during the fight.**
-
-#### A.III hero
-
-1. **the animation of the nameless hero during the fight.**
-
-#### A.IV other things
+#### A.IV Other things
 
 1. \-\-\-
 
-### C. audio advantages
+### B. Visual advantages
 
-#### A.I environment
+#### A.I Environment
 
-1. **sounds and voices.** specifically animal sounds (like howling of wolves), snow crunching.
+1. **Falling snow.**
 
-#### A.II characters
+2. **Mist.** Specifically in the morning.
 
-1. **sounds and voices.**
+3. **Nights.** Specifically shadows from bonfire light.
 
-#### A.III hero
+4. **You can saw (a log), and during this there is sawdust falling.**
+
+5. **Colors of the world in the light of the sunset.**
+
+#### A.II Characters
+
+1. **Arrows poking from the characters bodies.** Although it is probably only visual advantage, they probably do no additional hurt as if they dropped away.
+
+2. **The animation of characters during the fight.**
+
+#### A.III Hero
+
+1. **The animation of the nameless hero during the fight.**
+
+#### A.IV Other things
 
 1. \-\-\-
 
-#### A.IV other things
+### C. Audio advantages
 
-1. **sounds and voices.**
+#### A.I Environment
 
-2. **music.** very moody. but the main things is that it excellent fits the moment in the game – it changes when fight starts, it changes when fight ends, it changes when i go to the ice land, and so on.
+1. **Sounds and voices.** Specifically animal sounds (like howling of wolves), snow crunching.
 
-3. **the sound of drawing a bow.** lovely! specifically lovely to hear when trying to dodge the arrow.
+#### A.II Characters
 
-## some sources
+1. **Sounds and voices.**
 
-- http://pl.gothic.wikia.com/wiki/Gothic_i_ArcaniA
-- http://www.worldofgothic.com/
-- http://gothicworld.wikia.com/wiki/Gothic_Wiki
+#### A.III Hero
+
+1. \-\-\-
+
+#### A.IV Other things
+
+1. **Sounds and voices.**
+
+2. **Music.** Very moody. But, the main things is that it excellent fits the moment in the game – it changes when fight starts, it changes when fight ends, it changes when I go to the ice land, and so on.
+
+3. **The sound of drawing a bow.** Lovely! Specifically lovely to hear when trying to dodge the arrow.
+
+## Some sources
+
+- http://pl.Gothic.wikia.com/wiki/Gothic_i_ArcaniA
+- http://www.worldofGothic.com/
+- http://Gothicworld.wikia.com/wiki/Gothic_Wiki
 - http://www.metacritic.com/
-- http://www.gothic3.com/
+- http://www.Gothic3.com/
 - https://www.igdb.com/
