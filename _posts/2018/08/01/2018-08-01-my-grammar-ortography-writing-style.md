@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "the grammar, orthography and writing style of my articles"
+title: "The grammar, orthography and writing style of my articles"
 date: 2018-08-01
 tags: blogging
 ---
