@@ -5,6 +5,17 @@ date: 2018-08-01
 tags: blogging
 ---
 
+## Update 2018 nov 11
+
+As my approach to orthography has changed since the time that this post was published, currently I have updated all posts on this blog and all descriptions in other GitHub projects of mine. Now, they use capital letters in the places required by the English orthography (at least I hope so).
+
+I decided not to change comments and commits. In cases that the rules were indeterminated, or both upper and lower cases were allowed, or it was impossible to predict what case it should be – I have decided to use capital letters.
+
+With regard to the above, this article is no loger relevant to its conclusions. But, I find it still OK to let people know what was my motivation. Therefore, I have decided not to remove it, and also to leave its original orthography.
+
+(**Note:** I put the article in a [code block](https://help.github.com/articles/creating-and-highlighting-code-blocks/), so you see the "raw" format of it, i.e., with markdown syntax.)
+
+```
 when you read my articles, you may notice that i write them without capital letters. this may seem strange, like i have made it up for myself and do not care what others would think. but this is only partially true.
 
 ## in the old days
@@ -150,3 +161,4 @@ my second advice is as follows: **if you are looking for rules to follow, stick 
 - [a subset of mine – dedicated to everybody, not just myself](https://silvuss.github.io/2018/07/10/the-things-that-every-blogging-developer.html)
 - [a usual english grammar described by the oxford university]( https://en.oxforddictionaries.com/grammar)
 - similar that are used in your language, institution, region or country.
+```
