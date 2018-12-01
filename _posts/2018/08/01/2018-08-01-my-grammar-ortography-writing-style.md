@@ -5,7 +5,7 @@ date: 2018-08-01
 tags: blogging
 ---
 
-## Update 2018 nov 11
+**Update 2018 nov 29:**
 
 As my approach to orthography has changed since the time that this post was published, currently I have updated all posts on this blog and all descriptions in other GitHub projects of mine. Now, they use capital letters in the places required by the English orthography (at least I hope so).
 
