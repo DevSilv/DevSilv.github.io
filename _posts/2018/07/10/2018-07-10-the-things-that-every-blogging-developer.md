@@ -170,7 +170,3 @@ For example, if your article describe a new programming language, and the langua
 - Which of all the use cases (those described by you and those not) are similar? Which of them are different? (these are two separate questions)
 - Why to choose this language in which of them?
 - Even if they are different, could the language play the same role in them?
-
-## version of this article
-
-this is version 4.0.0.
