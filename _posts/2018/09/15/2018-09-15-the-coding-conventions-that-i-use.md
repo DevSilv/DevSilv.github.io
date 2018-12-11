@@ -9,7 +9,7 @@ There are many [coding conventions](https://en.wikipedia.org/wiki/Coding_convent
 I will cover my coding conventions of the following languages:
 - HTML
 - CSS
-- Javascript
+- JavaScript
 
 Since I usually use the auto-formatting option in IDEs, if any of the rules below that apply to formatting is different than the one that is used by the IDE that I use currently, then I try to follow the IDE convention (this means that I try not to change the IDE's default formatting options).
 

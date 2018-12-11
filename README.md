@@ -34,7 +34,7 @@ Currently, the following technologies are used in this project:
 - Template languages:
   - [**Liquid**](https://shopify.github.io/liquid/) in the newest possible version available on GitHub (because this website can be updated)
 - Programming languages and libraries:
-  - [**Javascript**](https://developer.mozilla.org/pl/docs/Web/JavaScript) – ECMAScript in version most probably not above 6
+  - [**JavaScript**](https://developer.mozilla.org/pl/docs/Web/JavaScript) – ECMAScript in version most probably not above 6
   - [**jQuery**](https://jquery.com/) in version 3.3.1
 
 Also note that the following technologies are used across GitHub:
