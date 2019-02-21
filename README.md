@@ -2,7 +2,7 @@
 
 This repository contains a website with my (silvuss's) thoughts. You can find here for example thoughts on programming and technical writing.
 
-## Table of contentsq
+## Table of contents
 
 1. [Copyright note](#copyright-note)
 2. [Installation and usage](#installation-and-usage)
