@@ -2,7 +2,7 @@
 
 This repository contains a website with my (silvuss's) thoughts. You can find here for example thoughts on programming and technical writing.
 
-## Table of contents
+## Table of contentsq
 
 1. [Copyright note](#copyright-note)
 2. [Installation and usage](#installation-and-usage)
@@ -45,17 +45,13 @@ Also note that the following technologies are used across GitHub:
 
 **UPDATE 2018 Dec 1:** Since my opinion has changed since the last changing of this README, now I think that this place could be called "a blog". Maybe it is the number of articles that tip the balance. Below I am leaving the original answer to this question.
 
-```
-You may call this place a blog if you want to, but i do not consider it as such. I would name it "a place for my thoughts" or similar. But – I will always use terms that are usually used in the context of blogs, such as "posts" and "articles". And additionaly, I will treat it as a blog if I will be comparing it to other blogs.
-```
+    You may call this place a blog if you want to, but i do not consider it as such. I would name it "a place for my thoughts" or similar. But – I will always use terms that are usually used in the context of blogs, such as "posts" and "articles". And additionaly, I will treat it as a blog if I will be comparing it to other blogs.
 
 ### Why you do not start sentences with capital letters?
 
 **UPDATE 2018 Dec 1:** According to [this updated post of mine](https://silvuss.github.io/2018/08/01/my-grammar-ortography-writing-style.html), this question is no longer relevant. Below I am leaving the original answer to this question.
 
-```
-Here (and possibly in every GitHub project of mine), I use a convention of not using capital letters beside acronyms (e.g. MS, VCS). For more details, see [this article of mine](https://silvuss.github.io/2018/08/01/my-grammar-ortography-writing-style.html).
-```
+    Here (and possibly in every GitHub project of mine), I use a convention of not using capital letters beside acronyms (e.g. MS, VCS). For more details, see [this article of mine](https://silvuss.github.io/2018/08/01/my-grammar-ortography-writing-style.html).
 
 ### I have noticed that the content of your post which I read earlier has changed. Why?
 
