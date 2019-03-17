@@ -1,6 +1,9 @@
 title: "silvuss's thoughts"
 author: "silvuss"
-description: "hello, i am silvuss, and here you can find my thoughts on various topics – including programming, philosophy, blogging and AI. english is not my native language."
+description: "Hello, I am silvuss, and here you can find my thoughts on various topics – programming, philosophy, blogging, AI and similar. English is not my native language."
+footer-copyright: Copyright &copy; 2018 silvuss
+footer-license: All articles (thoughts) in this place has <strong>no license</strong>. For more information, see&nbsp<a href="https://choosealicense.com/no-permission/">this&nbspGitHub's&nbspguide</a>.
+footer-icon: The RSS icon comes from <a href="https://pixabay.com/en/rss-feed-icon-atom-feed-button-2027180/">pixabay.com</a>
 url: https://silvuss.github.io
 html-lang: "en"
 meta-charset: "utf-8"
