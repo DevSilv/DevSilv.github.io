@@ -30,7 +30,9 @@
         {{ content }}
         <footer class="row text-dark bg-light p-3 text-center justify-content-sm-center">
             <div class="col-sm-8">
-                <span class="mr-2">copyright &copy; 2018 silvuss</span> | <span class="ml-2 mr-2">all articles (thoughts) in this place has <strong>no license</strong>. for more information, see <a href="https://choosealicense.com/no-permission/">this github's guide</a>.</span> | <span class="ml-2">the RSS icon comes from <a href="https://pixabay.com/en/rss-feed-icon-atom-feed-button-2027180/">pixabay.com</a></span>
+                <span class="mr-2">{{ site.footer-copyright }}</span> | <span
+                    class="ml-2 mr-2">{{ site.footer-license }}</span> | <span
+                    class="ml-2">{{ site.footer-icon }}</span>                    
             </div>
         </footer>
     </div>
