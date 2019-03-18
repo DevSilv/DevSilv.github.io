@@ -2,6 +2,7 @@
 layout: post
 title: "A thought about Gothic 3 bugs and defects"
 date: 2018-09-09
+tags: Games
 ---
 
 [Gothic 3](http://www.Gothic3.com/), a 2006 role-playing PC game developed by [Piranha Bytes](https://www.igdb.com/companies/piranha-bytes), may be considered [good](http://www.metacritic.com/game/pc/Gothic-3). This means that it contains bugs and defects, as well as advantages. I find this game very playable, so I decided to write this series of two thoughts, in which I will describe some advantages, as well as bugs and defects that Gothic 3 has.
