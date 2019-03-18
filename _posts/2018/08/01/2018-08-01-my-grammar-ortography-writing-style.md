@@ -2,7 +2,7 @@
 layout: post
 title: "The grammar, orthography and writing style of my articles"
 date: 2018-08-01
-tags: blogging
+tags: Blogging
 ---
 
 **Update 2018 nov 29:**

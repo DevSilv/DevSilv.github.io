@@ -2,7 +2,7 @@
 layout: post
 title: "Tips for blogging developers"
 date: 2018-07-10
-tags: development blogging programming
+tags: Development Blogging
 ---
 
 This article contains tips for bloggers that are developers (programmers, or testers, or similar) on how to create a good article.

@@ -2,7 +2,7 @@
 layout: post
 title: "My backup shell script"
 date: 2018-10-14
-tags: linux shell programming bash
+tags: Linux Shell Development Bash
 ---
 
 In this article I will show how I have prepared my backup shell script. I made it in the [Bash language](https://en.wikipedia.org/wiki/Bash_(Unix_shell)), on the [Fedora operating system](https://en.wikipedia.org/wiki/Fedora_(operating_system)).

@@ -2,7 +2,7 @@
 layout: post
 title: "A thought about improving AI"
 date: 2018-07-23
-tags: philosophy AI
+tags: Philosophy AI
 ---
 
 When it comes to AI, it is almost always said that it is still being improved. Of course, there are usually reasons given (and usually implicitly) why it has to be improved – for better security, safety or usability.

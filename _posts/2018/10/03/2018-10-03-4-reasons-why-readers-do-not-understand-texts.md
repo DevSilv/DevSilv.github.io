@@ -2,7 +2,7 @@
 layout: post
 title: "4 reasons why readers do not understand texts"
 date: 2018-10-03
-tags: psychology philosophy
+tags: Psychology Philosophy
 ---
 
 In this article I will share my observations why a reader do not understand a text that they are reading (on the computer, in a paper magazine etc.).

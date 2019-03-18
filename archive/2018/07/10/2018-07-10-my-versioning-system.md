@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "the versioning system of my articles"
+title: "The versioning system of my articles"
 date: 2018-07-10
-tags: programming
+tags: Development
 ---
 
 this article describes what is the versioning system that i apply to my articles.
