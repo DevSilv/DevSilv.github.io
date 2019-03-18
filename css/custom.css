@@ -1,13 +1,98 @@
+h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
 h2 {
-    margin-top: 50px;
-    margin-bottom: 20px;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.7rem;
 }
 
 h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+@media screen and (min-width: 769px) {
+    h1 {
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1.25rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    h3 {
+        font-weight: normal;
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
 }
 
 pre {
+    /* The following "pre-line" property is specified, because
+    current kramdown (GitHub Pages's default parser) version
+    (2.1.0, https://kramdown.gettalong.org/syntax.html)
+    seems not to wrap text inside the <pre> element by default,
+    and the intended page's display is broken because of that. */
     white-space: pre-line;
+}
+
+/* The following table properties definitions are specified,
+    because current kramdown (GitHub Pages's default parser)
+    version (2.1.0, https://kramdown.gettalong.org/syntax.html)
+    seems not to support any borders by default, and the intended
+    tables display assumes that they have borders. */
+
+.my-bg-light, .my-bg-light-no-hover, td {
+    background-color: #f0f5f5;
+}
+
+.my-bg-light:hover, th {
+    background-color: #d1e0e0;
+}
+
+.my-border-light, .my-border-light-no-hover {
+    /* The following "!important" directive
+    is needed in order to override Bootstrap
+    default styling. */
+    border-color: #d1e0e0 !important;
+}
+
+.my-border-light:hover {
+    /* The following "!important" directive
+    is needed in order to override Bootstrap
+    default styling. */
+    border-color: #b3cbcb !important;
+}
+
+th, td {
+    border: 3px solid transparent;
+    background-clip: padding-box;
+    border-radius: 5px;
+}
+
+table, th, td {
+    padding: 7px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }

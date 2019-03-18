@@ -1,4 +1,4 @@
-<header class="row bg-light sticky-top justify-content-sm-center">
+<header class="row sticky-top justify-content-center my-border-light-no-hover my-bg-light-no-hover" style="border-bottom: 2px solid;">
     <div class="col-sm-8">
         <div class="d-flex justify-content-between flex-wrap align-items-center">
             <div class="mt-1 mb-1 ml-2 mr-2">
@@ -15,8 +15,8 @@
                         onkeyup="search('{{ site.data.strings.search.no-search-results }}');">
                     <ul style="display: none; position: absolute; width: 200px; z-index: 1;" class="list-group list-unstyled" id="search-form__results-list"></ul>
                 </form>
-                <div class="mt-1 mb-1 ml-sm-5 ml-2 mr-2">
-                    RSS:
+                <div class="d-flex align-items-center m-1">
+                    <span class="mr-2">RSS:</span>
                     <a href="{{ site.data.internal-uris.xml.feed }}">
                         <img src="{{ site.data.internal-uris.images.rss }}" width="30px" height="30px">
                     </a>
