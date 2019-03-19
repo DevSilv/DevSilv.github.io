@@ -32,19 +32,23 @@ This website does not require any installation. One can use it by opening the fo
 This website is created in the following technologies:
 - Markup languages:
     - [HTML](https://en.wikipedia.org/wiki/HTML) version 5
-    - [Markdown](https://en.wikipedia.org/wiki/Markdown) in the [GitHub Flavored Markdown](https://github.github.com/gfm/) dialect in the newest possible version available on GitHub
+    - [Markdown](https://en.wikipedia.org/wiki/Markdown) in the [GitHub Flavored Markdown](https://github.github.com/gfm/) dialect (provided by GitHub, so the version is always the newest possible)
 - Style sheet languages:
     - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets), version 3
 - Template languages:
-    - [Liquid](https://shopify.github.io/liquid/) in the newest possible version available on GitHub
-- Programming languages and libraries:
-    - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) – [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript) in version most probably not above 6
-    - [jQuery](https://en.wikipedia.org/wiki/JQuery) in version 3.3.1
+    - [Liquid](https://shopify.github.io/liquid/) (provided by GitHub, so the version is always the newest possible)
+- Programming languages:
+    - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- Front-end frameworks and libraries:
+    - [jQuery](https://en.wikipedia.org/wiki/JQuery), version 3.3.1
+    - [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)), version 4.1.3
 
-While this website is hosten on [GitHub Pages](https://pages.github.com/), note also that the following technologies are used across GitHub:
-- [Jekyll](https://en.wikipedia.org/wiki/Jekyll_(software)) is used as a site generator.
+Note also that this project utilizes the following technologies, since they are used across GitHub, and this website is hosted on [GitHub Pages](https://pages.github.com/):
+- Static site generators:
+    - [Jekyll](https://en.wikipedia.org/wiki/Jekyll_(software)) (provided by GitHub, so the version is always the newest possible).
 
 ## Details
 
 For detailed information about this website, see [this website wiki](https://github.com/silvuss/silvuss.github.io/wiki). Particularly, the wiki includes:
 - [FAQ](https://github.com/silvuss/silvuss.github.io/wiki/Faq).
+- [Technologies not good for accessibility reasons](TODO).
