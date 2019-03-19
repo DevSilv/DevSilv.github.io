@@ -53,7 +53,10 @@ pre {
     current kramdown (GitHub Pages's default parser) version
     (2.1.0, https://kramdown.gettalong.org/syntax.html)
     seems not to wrap text inside the <pre> element by default,
-    and the intended page's display is broken because of that. */
+    and the intended page's display is broken because of that.
+    Nonetheless, it works only partially (it does not let the words
+    split on some punctuation marks), and another solution
+    should be used, if known. */
     white-space: pre-line;
 }
 
@@ -63,22 +66,20 @@ pre {
     seems not to support any borders by default, and the intended
     tables display assumes that they have borders. */
 
-.my-bg-light, .my-bg-light-no-hover, td {
+.my-animated-bg-border, .my-bg-border, td {
     background-color: #f0f5f5;
-}
-
-.my-bg-light:hover, th {
-    background-color: #d1e0e0;
-}
-
-.my-border-light, .my-border-light-no-hover {
     /* The following "!important" directive
     is needed in order to override Bootstrap
     default styling. */
     border-color: #d1e0e0 !important;
 }
 
-.my-border-light:hover {
+.my-animated-bg-border {
+    transition: border-color 0.2s linear, background-color 0.2s linear;
+}
+
+.my-animated-bg-border:hover, th {
+    background-color: #d1e0e0;
     /* The following "!important" directive
     is needed in order to override Bootstrap
     default styling. */
@@ -86,7 +87,11 @@ pre {
 }
 
 th, td {
-    border: 3px solid transparent;
+    /* The following "!important" directive
+    is needed in order to override the styling
+    of the "my-animated-bg-border" element
+    border above. */
+    border: 3px solid transparent !important;
     background-clip: padding-box;
     border-radius: 5px;
 }

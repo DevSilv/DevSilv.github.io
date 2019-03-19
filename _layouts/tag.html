@@ -4,13 +4,13 @@ layout: page
 
 <article class="col-sm-8">
     <h1 class="text-center mb-4 mt-4">
-        {{ site.tag-title-prefix }} <span class="bg-light pt-1 pb-1 pl-2 pr-2 my-bg-light-no-hover my-border-light-no-hover" style="border: 2px solid; border-radius: 5px;">{{ page.tag }}</span>
+        {{ site.tag-title-prefix }} <span class="bg-light pt-1 pb-1 pl-2 pr-2 my-bg-border" style="border: 2px solid; border-radius: 5px;">{{ page.tag }}</span>
     </h1>
     <ul class="list-unstyled ">
         {% for post in site.tags[page.tag] %}
         <li style="border-top: 2px solid #d1e0e0; padding: 16px;">
             <h3>
-                <a href="{{ post.url }}" class="my-bg-light my-border-light" style="display: inline-block; border: 2px solid; border-radius: 5px; padding: 5px;">{{ post.title }}</a>
+                <a href="{{ post.url }}" class="my-animated-bg-border" style="display: inline-block; border: 2px solid; border-radius: 5px; padding: 5px;">{{ post.title }}</a>
             </h3>
             <div class="mb-4 mt-4">
                 {{ post.excerpt }}

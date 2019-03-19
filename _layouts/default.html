@@ -17,22 +17,22 @@
     <script src="{{ site.data.internal-uris.js.display-search-results }}"></script>
     <script src="{{ site.data.internal-uris.js.search }}"></script>
     {% if page %}
-        {% if page.title %}
-        <title>{{ page.title }} | {{ site.title }}</title>
-        {% else %}
-        <title>{{ site.title }}</title>
-        {% endif %}
+    {% if page.title %}
+    <title>{{ page.title }} | {{ site.title }}</title>
+    {% else %}
+    <title>{{ site.title }}</title>
+    {% endif %}
     {% endif %}
 </head>
 
 <body>
     <div class="container-fluid" style="height: 100vh; display: grid; grid-template-rows: auto 1fr auto;">
         {{ content }}
-        <footer class="row text-dark p-3 text-center justify-content-sm-center my-bg-light-no-hover my-border-light-no-hover" style="border-top: 2px solid;">
+        <footer class="row text-dark p-3 text-center justify-content-sm-center my-bg-border" style="border-top: 2px solid;">
             <div class="col-sm-8">
                 <span class="mr-2">{{ site.footer-copyright }}</span> | <span
                     class="ml-2 mr-2">{{ site.footer-license }}</span> | <span
-                    class="ml-2">{{ site.footer-icon }}</span>                    
+                    class="ml-2">{{ site.footer-icon }}</span>
             </div>
         </footer>
     </div>

@@ -15,7 +15,7 @@ layout: default
     <section class="col-sm-4 text-center p-3">
         <ul class="list-group list-group-flush">
             {% for post in site.posts %}
-            <li class="list-group-item m-1 my-bg-light my-border-light" style="padding: 0; border-radius: 5px; border: 2px solid;">
+            <li class="list-group-item m-1 my-animated-bg-border" style="padding: 0; border-radius: 5px; border: 2px solid;">
                 <a href="{{ site.baseurl }}{{ post.url }}" style="display: block; padding: 10px;">{{ post.title }} — {{ post.date | date: "%Y %B %d" }}</a>
             </li>
             {% endfor %}
