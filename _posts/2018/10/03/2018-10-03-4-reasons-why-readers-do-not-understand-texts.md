@@ -9,7 +9,7 @@ In this article I will share my observations why a reader do not understand a te
 
 I would like to talk about texts in general. The reasons come from my own experience on why I, myself, do not from time to time understand a text that I am reading (I read mostly on the internet).
 
-I will try to describe texts the most generally, independently of their topics – that is, they could range from general and philosophical, like those on https://medium.com/, to specialized and technical, like those on https://developer.mozilla.org/. By a "text" I understand a blog post, a dictionary article, and all kind of text in a more or less compact form. The reasons may probably also apply to longer kinds of texts, such as books, essays and the like, maybe even poetry (maybe just in a slightly changed form).
+I will try to describe texts the most generally, independently of their topics – that is, they could range from general and philosophical, like those on <https://medium.com/>, to specialized and technical, like those on <https://developer.mozilla.org/>. By a "text" I understand a blog post, a dictionary article, and all kind of text in a more or less compact form. The reasons may probably also apply to longer kinds of texts, such as books, essays and the like, maybe even poetry (maybe just in a slightly changed form).
 
 ## The reasons
 

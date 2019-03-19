@@ -58,7 +58,7 @@ what is interesting, this situation turned out to be fully reasoned:
     - i was uncertain of my english skills.
 - in all other places on github, i had chosen lowercase because i preferred it, possibly visually; and periods because otherwise i would not be able to write multiple sentences in one paragraph.
 
-**tip:** for polish readers who want to keep the feeling of continuity of my posts, i have also written about that situation here: https://4programmers.net/Mikroblogi/View/28114#entry-28114
+**tip:** for polish readers who want to keep the feeling of continuity of my posts, i have also written about that situation here: <https://4programmers.net/Mikroblogi/View/28114#entry-28114>
 
 ## consistency is the king
 
@@ -143,7 +143,7 @@ these rules seem to be easier to follow, since i treat "other comments" as "stan
 - if possible, i divide the text into relatively short paragraphs.
 - if possible, i try to apply the three-part structure: introduction, body and conclusion.
 
-these are not all the rules that i try to follow. the other part is earlier described by me here: https://silvuss.github.io/2018/07/10/the-things-that-every-blogging-developer.html
+these are not all the rules that i try to follow. the other part is earlier described by me here: <https://silvuss.github.io/2018/07/10/the-things-that-every-blogging-developer.html>
 
 ## i follow these rules… so what then?
 
@@ -152,13 +152,13 @@ one may ask: should others follow your rules, or should they avoid them?
 **my first advice is to avoid them.** a couple of reasons:
 
 1. i created them myself – and i am a layman, i have only a small background in writing.
-2. they are breaking some other well acknowledged rules, for example in the orthography field: https://en.oxforddictionaries.com/spelling/using-capital-letters
+2. they are breaking some other well acknowledged rules, for example in the orthography field: <https://en.oxforddictionaries.com/spelling/using-capital-letters>
 3. they are not well-reasoned in any field (except my own ideas).
 4. the text without capital letters is less natural, therefore harder to read and easier to make a mistake.
 
 my second advice is as follows: **if you are looking for rules to follow, stick to these:**
 
 - [a subset of mine – dedicated to everybody, not just myself](https://silvuss.github.io/2018/07/10/the-things-that-every-blogging-developer.html)
-- [a usual english grammar described by the oxford university]( https://en.oxforddictionaries.com/grammar)
+- [a usual english grammar described by the oxford university](https://en.oxforddictionaries.com/grammar)
 - similar that are used in your language, institution, region or country.
 ```

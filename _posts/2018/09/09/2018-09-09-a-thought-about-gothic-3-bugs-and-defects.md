@@ -123,9 +123,9 @@ I divided the bugs and defects into two groups: "gameplay" and "visual". Each gr
 
 ## Some sources
 
-- http://pl.Gothic.wikia.com/wiki/Gothic_i_ArcaniA
-- http://www.worldofGothic.com/
-- http://Gothicworld.wikia.com/wiki/Gothic_Wiki
-- http://www.metacritic.com/
-- http://www.Gothic3.com/
-- https://www.igdb.com/
+- <http://pl.Gothic.wikia.com/wiki/Gothic_i_ArcaniA>
+- <http://www.worldofGothic.com/>
+- <http://Gothicworld.wikia.com/wiki/Gothic_Wiki>
+- <http://www.metacritic.com/>
+- <http://www.Gothic3.com/>
+- <https://www.igdb.com/>

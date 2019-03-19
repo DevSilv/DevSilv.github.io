@@ -92,10 +92,9 @@ In my opinion, it is better to have too much information than too little. If som
 
 ## Sources that I used
 
-- https://github.com/
-- https://guides.github.com/features/issues/
-- https://en.wikipedia.org/wiki/Issue_tracking_system
-- https://en.wikipedia.org/wiki/Bug_tracking_system
-- https://retailops.zendesk.com/hc/en-us/articles/203232499-Tips-for-Submitting-Effective-Ticket-Requests
-- https://www.bettercloud.com/monitor/how-to-request-helpdesk-support-it-ticketing/
-https://hackernoon.com/45-github-issues-dos-and-donts-dfec9ab4b612
+- <https://guides.github.com/features/issues/>
+- <https://en.wikipedia.org/wiki/Issue_tracking_system>
+- <https://en.wikipedia.org/wiki/Bug_tracking_system>
+- <https://retailops.zendesk.com/hc/en-us/articles/.203232499-Tips-for-Submitting-Effective-Ticket-Requests>
+- <https://www.bettercloud.com/monitor/how-to-request-helpdesk-support-it-ticketing/>
+- <https://hackernoon.com/45-github-issues-dos-and-donts-dfec9ab4b612>
