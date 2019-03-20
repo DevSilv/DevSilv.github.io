@@ -13,6 +13,7 @@ layout: page
         {% endfor %}
         {% endif %}
     </ul>
+    <p class="text-center font-weight-bold">{{ page.date | date_to_long_string }}</p>
     <h1 class="text-center mb-4 pb-4 mt-3" style="border-bottom: 2px solid #d1e0e0;">{{ page.title }}</h1>
     {{ content }}
 </article>
