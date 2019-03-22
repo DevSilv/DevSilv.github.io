@@ -104,3 +104,36 @@ table, th, td {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
+.comment-header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+/* The following min-width value is the same
+as have large devices assigned in Bootstrap 4.1.3. */
+@media screen and (min-width: 992px) {
+    .comment-header {
+        grid-template-columns: 1fr auto auto;
+        grid-template-rows: auto;
+    }
+}
+
+.comment-creation-date-container,
+.comment-last-update-date-container,
+.comment-author-container {
+    border: 2px solid;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.comments {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.comments-list {
+    list-style: none;
+    padding: 0;
+}

@@ -16,4 +16,88 @@ layout: page
     <p class="text-center font-weight-bold">{{ page.date | date_to_long_string }}</p>
     <h1 class="text-center mb-4 pb-4 mt-3" style="border-bottom: 2px solid #d1e0e0;">{{ page.title }}</h1>
     {{ content }}
+    <script>
+        $(window).on("load", function () {
+            // Find the issue for the current post.
+            const articleTitle = "{{ page.title }}";
+            $.get("https://api.github.com/repos/silvuss/silvuss.github.io/issues", function (data) {
+                const currentIssue = data.find(issue => {
+                    // The following like assumes that there is no comment
+                    //  with title containing the colon.
+                    const properIssueTitle = issue.title.split(":")[1];
+                    return properIssueTitle === articleTitle;
+                });
+                if (currentIssue !== undefined) {
+                    // Get all the comments of the issue.
+                    $.get(`https://api.github.com/repos/silvuss/silvuss.github.io/issues/${currentIssue.number}/comments`, function (data) {
+                        if (data.length === 0) {
+                            const noCommentsTextContainer = document.createElement("p");
+                            noCommentsTextContainer.append("(currently no comments)");
+                            $(".comments").append(noCommentsTextContainer);
+                        } else {
+                            const commentsList = document.createElement("ul");
+                            data.forEach(rawComment => {
+                                // Create the comment header.
+                                const commentAuthorContainer = document.createElement("span");
+                                const authorName = rawComment.user.login;
+                                commentAuthorContainer.append(authorName);
+                                $(commentAuthorContainer).addClass("comment-author-container p-1 my-border my-bg");
+                                const commentCreationDateContainer = document.createElement("span");
+                                const creationDate = rawComment.created_at;
+                                const jsCreationDate = new Date(creationDate);
+                                // The following date format is aligned
+                                //  to the date format returned by
+                                //  the Liquid function "date_to_long_string".
+                                const formattedJSCreationDateDay = jsCreationDate.toLocaleDateString("en-US", { "day": "2-digit" });
+                                const formattedJSCreationDateMonth = jsCreationDate.toLocaleDateString("en-US", { "month": "long" });
+                                commentCreationDateContainer.append(`Last updated: ${formattedJSCreationDateDay} ${formattedJSCreationDateMonth} ${jsCreationDate.getFullYear()}`);
+                                $(commentCreationDateContainer).addClass("comment-creation-date-container p-1 my-border");
+                                const commentLastUpdateDateContainer = document.createElement("span");
+                                const lastUpdateDate = rawComment.updated_at;
+                                const jsLastUpdateDate = new Date(lastUpdateDate);
+                                // The following date format is aligned
+                                //  to the date format returned by
+                                //  the Liquid function "date_to_long_string".
+                                const formattedJSLastUpdateDay = jsLastUpdateDate.toLocaleDateString("en-US", { "day": "2-digit" });
+                                const formattedJSLastUpdateMonth = jsLastUpdateDate.toLocaleDateString("en-US", { "month": "long" });
+                                commentLastUpdateDateContainer.append(`Last updated: ${formattedJSLastUpdateDay} ${formattedJSLastUpdateMonth} ${jsLastUpdateDate.getFullYear()}`);
+                                $(commentLastUpdateDateContainer).addClass("comment-last-update-date-container p-1 my-border");
+                                const commentHeader = document.createElement("header");
+                                commentHeader.append(commentAuthorContainer);
+                                commentHeader.append(commentCreationDateContainer);
+                                commentHeader.append(commentLastUpdateDateContainer);
+                                $(commentHeader).addClass("comment-header");
+
+                                // Create the comment text container.
+                                const commentTextContainer = document.createElement("p");
+                                const commentText = rawComment.body;
+                                commentTextContainer.append(commentText);
+                                $(commentTextContainer).addClass("p-3");
+
+                                // Create the comment.
+                                const comment = document.createElement("article");
+                                comment.append(commentHeader);
+                                comment.append(commentTextContainer);
+
+                                // Append the comment to the comment list.
+                                const commentsListItem = document.createElement("li");
+                                commentsListItem.append(comment);
+                                commentsList.append(commentsListItem);
+                                $(commentsList).addClass("comments-list");
+                            });
+                            $(".comments").append(commentsList);
+                        }
+                    });
+                } else {
+                    throw Error(`No issue created for article "${articleTitle}"`); il
+                }
+            });
+        });
+    </script>
+    <section class="comments-container">
+        <header class="p-1 mb-4 my-bg my-border" style="border: 2px solid; border-radius: 5px;">
+            <h2 class="m-0 text-center">Comments</h2>
+        </header>
+        <div class="comments"></div>
+    </section>
 </article>
