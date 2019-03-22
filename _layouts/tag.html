@@ -4,7 +4,7 @@ layout: page
 
 <article class="col-sm-8">
     <h1 class="text-center mb-4 mt-4">
-        {{ site.tag-title-prefix }} <span class="bg-light pt-1 pb-1 pl-2 pr-2 my-bg-border" style="border: 2px solid; border-radius: 5px;">{{ page.tag }}</span>
+        {{ site.tag-title-prefix }} <span class="bg-light pt-1 pb-1 pl-2 pr-2 my-bg my-border" style="border: 2px solid; border-radius: 5px;">{{ page.tag }}</span>
     </h1>
     <ul class="list-unstyled ">
         {% for post in site.tags[page.tag] %}

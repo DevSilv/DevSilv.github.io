@@ -66,8 +66,11 @@ pre {
     seems not to support any borders by default, and the intended
     tables display assumes that they have borders. */
 
-.my-animated-bg-border, .my-bg-border, td {
+.my-animated-bg-border, .my-bg, td {
     background-color: #f0f5f5;
+}
+
+.my-animated-bg-border, .my-border, td {
     /* The following "!important" directive
     is needed in order to override Bootstrap
     default styling. */
