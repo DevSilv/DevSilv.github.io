@@ -4,10 +4,26 @@ h1 {
     margin-bottom: 1rem;
 }
 
+@media screen and (min-width: 769px) {
+    h1 {
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1.25rem;
+    }
+}
+
 h2 {
     font-size: 1.5rem;
     margin-top: 1.5rem;
     margin-bottom: 0.7rem;
+}
+
+@media screen and (min-width: 769px) {
+    h2 {
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
 }
 
 h3 {
@@ -17,31 +33,21 @@ h3 {
     margin-bottom: 0.5rem;
 }
 
-li {
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
-
 @media screen and (min-width: 769px) {
-    h1 {
-        font-size: 2.5rem;
-        margin-top: 2.5rem;
-        margin-bottom: 1.25rem;
-    }
-    
-    h2 {
-        font-size: 2rem;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-    }
-    
     h3 {
         font-weight: normal;
         font-size: 1.5rem;
         margin-top: 1.5rem;
         margin-bottom: 0.75rem;
     }
+}
 
+li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+    
+@media screen and (min-width: 769px) {
     li {
         padding-top: 5px;
         padding-bottom: 5px;
