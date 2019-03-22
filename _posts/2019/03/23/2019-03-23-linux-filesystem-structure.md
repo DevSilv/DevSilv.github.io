@@ -1,4 +1,4 @@
-In this article, I want to give a general overview on the directory structure in Linux.
+In this article, I want to present a general overview on the directory structure in Linux.
 
 The purpose of this article is to show only the overall structure of Linux directories, and the article will contain only description of top-level directories. If one would like to read more thorough description about various concepts described here, see [the "Sources" section at the end of this article](#sources).
 
@@ -22,18 +22,18 @@ Lastly, **please be aware that I am not an expert in Linux, operating systems no
 
     I do not know which term is more appropriate. Within this article, I am using the term "directory structure".
 
-- The terms "directory" and "folder" may be understood in two ways: (1) they are equivalent, or (2) they are not equivalent (that is, "directory structure" and "folder structure" may be understand as distinct ones). In this article, I am using mostly the "directory" term; the "folder" term is used only when the context demands speaking about a folder and not a directory. For details about distinction and definitions of these terms, see for example [Wikipedia's article about directory](https://en.wikipedia.org/wiki/Directory_(computing)) or [this StackExchange thread](https://stackoverflow.com/questions/5078676/what-is-the-difference-between-a-directory-and-a-folder).
-- The directories described are not put in strictly alphabetical order. Instead, I have tried to put similar directories next to each other (e.g. the `/sbin` directory next to the `/bin` directory).
+- The terms "directory" and "folder" may be understood in two ways: (1) they are equivalent, or (2) they are not equivalent (that is, terms "directory structure" and "folder structure" may be understand as distinct ones). In this article, I am using mostly the "directory" term; the "folder" term is used only when the context demands speaking about a folder and not a directory. For details about distinction and definitions of these terms, see for example [Wikipedia's article about directory](https://en.wikipedia.org/wiki/Directory_(computing)) or [this StackExchange thread](https://stackoverflow.com/questions/5078676/what-is-the-difference-between-a-directory-and-a-folder).
+- The directories described are not put in strictly alphabetical order, as it is usually done. Instead, I have tried to put similar directories next to each other (e.g. the `/sbin` directory next to the `/bin` directory).
 
 ## The origin of the directory structure on Linux
 
-Directory structure on most Linux distributions is more or less compliant with the [Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) (often referred to as "FHS"). This standard was created in 1994; its first name was FSSTND (short for "filesystem standard"), so one may come across this pre-existing name in some standards or other documents. This standard is part of the [Linux Standard Base](https://en.wikipedia.org/wiki/Linux_Standard_Base) (sometimes referred to as "LSB"). LSB is a project intended to increase compatibility between various operating systems.
+Directory structure on most Linux distributions is more or less compliant with the [Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) (often referred to as "FHS"). This standard was created in 1994; its first name was FSSTND (short for "filesystem standard"), so one may come across this pre-existing name in some standards or other documents. This standard is part of the [Linux Standard Base](https://en.wikipedia.org/wiki/Linux_Standard_Base) (sometimes referred to as "LSB"). Linux Standard Base is a project intended to increase compatibility between various operating systems.
 
-At the time of writing this article, Filesystem Hierarchy Standard is maintained by the [Linux Foundation](https://en.wikipedia.org/wiki/Linux_Foundation), and its last version is 3.0 (released in 2015). In this article, I refer to it as "FHS", and wherever I mention "the current version of FHS", I am referring to this 3.0 version.
+At the time of writing this article, Filesystem Hierarchy Standard is maintained by the [Linux Foundation](https://en.wikipedia.org/wiki/Linux_Foundation), and its last version is 3.0 (released in 2015). In this article, I refer to this standard as "FHS", and wherever I mention "the current version of FHS", I am referring the 3.0 version.
 
-For the information whether and how much a particular Linux distribution is compliant with FHS, refer to the documentation of this distribution, or to Wikipedia.
+For the information whether and how much a particular Linux distribution is compliant with FHS, refer to the documentation of the given distribution, or to Wikipedia.
 
-**Note:** **This article is not intended to describe the whole and exact Filesystem Hierarchy Standard**, but only a part of it that exists in most Linux distributions. Writing it, I have not been using **only** FHS's documentation, but also various articles available on the internet (I mention them directly in the text or in [the "Sources" section at the end of this article](#sources)). This article also covers some directories that are **not compliant** with this standard. In the case of a directory compliant with this standard, one can find on the internet more complex definitions and rules than described here. **When in doubts, refer to the [FHS](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html) itself.** Remember also that usually the Linux directory structure is itself far more complex than described here, in a way that some directories described here have complex set of subdirectories. For details, refer also to the [FHS](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html).
+**Note:** **This article is not intended to describe the whole and exact Filesystem Hierarchy Standard, but only a part of it with some modifications that exists in most Linux distributions. Therefore, this article also covers some directories that are not compliant with this standard.** Writing it, I have not been using only FHS's documentation, but also various articles available on the internet (I mention them directly in the text or in the ["Sources" section](#sources) at the end of this article). In the case when a directory is compliant with this standard, one can find more complex definitions and rules on the internet than described here. **When in doubts, refer to the [FHS documentation](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html).** Remember also that usually the Linux directory structure is itself far more complex than described here, in a way that some directories described here have complex set of subdirectories. For details, refer also to the [FHS documentation](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html).
 
 ## The rationale of the directory structure on Linux
 
@@ -53,6 +53,8 @@ To know the rationale that stands behind particular conventions and directories 
     This term does not refer to what particular applications have to do, or are disallowed to do. Moreover, particular applications might follow their own ways of placing their files, as FHS allows different places for those files.
 
     FHS, instead of this term, uses often (always?) the present tense of particular verbs – for example, a directory "contains" or "stores" files. It is not clear to me what it exactly means by that, therefore I have chosen not to follow this convention.
+
+    For details on the usage of the term "shall", see the [Merriam-Webster page about shall](https://www.merriam-webster.com/dictionary/shall).
 
 - **Note:** the sentence "This directory is not required nor optional as of the current version of FHS" used in this section means that FHS does not emphasize neither requiring nor allowing existance of this directory. **But since I have not read the whole FHS – that is, I have not read most of the parts about subdirectories – I cannot say whether the directory is mentioned anywhere in the standard.** It may be mentioned on particular pages, for example as a side note. Nonetheless, as FHS states, it is not forbidden to create some not mentioned directories (in the root hierarchy), but:
     > Distributions should not create new directories in the root hierarchy without extremely careful consideration of the consequences including for application portability.
@@ -225,9 +227,9 @@ To know the rationale that stands behind particular conventions and directories 
 ## Other ways of separating files
 
 Besides the directory structure that is common in case of Linux, there exist other ways of separating files:
-- for general view of possible directory structure and some part of Windows 10 folder structure, see for example [Wikipedia's article about directory structure](https://en.wikipedia.org/wiki/Directory_structure);
-- for some Unix-specific directory structure (not strictly FHS), see for example [this subsection of Wikipedia's article about Unix filesystem](https://en.wikipedia.org/wiki/Unix_filesystem#Conventional_directory_layout);
-- for Mac OS, see for example [this Apple's article about the macOS Sierra folders](https://support.apple.com/kb/PH25270?locale=en_US) or [this For Dummies's article about the OS X folders](https://www.dummies.com/computers/macs/mac-operating-systems/basics-of-the-os-x-folder-structure/).
+- For general view of possible directory structure and some part of Windows 10 folder structure, see for example [Wikipedia's article about directory structure](https://en.wikipedia.org/wiki/Directory_structure).
+- For some Unix-specific directory structure (not strictly FHS), see for example [this subsection of Wikipedia's article about Unix filesystem](https://en.wikipedia.org/wiki/Unix_filesystem#Conventional_directory_layout).
+- For Mac OS, see for example [this Apple's article about the macOS Sierra folders](https://support.apple.com/kb/PH25270?locale=en_US) or [this For Dummies's article about the OS X folders](https://www.dummies.com/computers/macs/mac-operating-systems/basics-of-the-os-x-folder-structure/).
 
 ## Sources
 
