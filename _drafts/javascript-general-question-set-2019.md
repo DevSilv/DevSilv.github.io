@@ -1,4 +1,6 @@
-In this article, I want to show a set of questions that express some programming and JavaScript aspects and ideas that I consider important. I decided that it must be dated on the current year, because the programming and JavaScript worlds are constantly changing.
+In this article, I want to present a set of questions that express some programming and JavaScript aspects and ideas that I consider important.
+
+Although I have been gathering the information for a long time, I decided that it must be dated on the year of publishing – because the programming and JavaScript worlds are constantly changing.
 
 ## Three disclaimers before we start
 
@@ -12,9 +14,7 @@ Lastly, **please be aware that I am not an expert in programming, programming la
 
 ### 1. What is the purpose of this article?
 
-The purpose of this article is to present a general overview of a JavaScript world in a form of questions.
-
-In particular, as stated above, this article is not intended to be comprehensive – instead, it is intended to **outline** some general and some specific concepts from the JavaScript world.
+The purpose of this article is to present a general overview of a JavaScript world in a form of questions. In particular, as stated above, this article is not intended to be comprehensive – instead, it is intended to **outline** some general and some specific concepts from the JavaScript world.
 
 ### 2. Have you got some tips for using this set of questions?
 
@@ -26,19 +26,17 @@ The "multi-answers questions" question group means that for a question within th
 
 The "single-answer questions" question group means that for a question within this group one may give several answers, and **they may be treated as generalizations (or specializations) of each other**.
 
-### 4. Since you use terms like "differentiate" or "what is" in some questions, it is hard to determine whether the answers to these questions are appropriate.
+### 4. Since you start some questions with "Differentiate..." or "What is...", it is hard to determine whether the answers to these questions are appropriate.
 
-It is true that it may be hard to determine this. The presumption of the questions is that the one who asks is the one who determine the correctness of the answer. If there are any doubts, it is up to the inquirer to decide.
+It is true that it may be hard to determine it. The presumption of all the questions is that the one who asks is the one who determine the correctness of the answers. If there are any doubts, it is up to the inquirer to decide.
 
 ### 5. For every question, you have listed some "sources" (as you named them). How do they exactly relate to the question?
 
-For every question, I have listed some URLs of websites or other sources available online (e.g. information about books). It does not mean that I have read all the content of them – in fact, I have not read most of them at all (mainly Wikipedia articles).
+For every question, I have listed some URLs of websites or other sources available online (e.g. information about books). It does not mean that I have read all the content of them – in fact, I have not read most of them at all (mainly not Wikipedia articles).
 
 Instead, listing them for a question means that they either (a) provide this question themselves, (b) gave me inspiration to coin it, (c) contain part of the answer or the whole answer for it, or (d) holds just a standard/specification defining some concepts that this question involves.
 
-I have named them collectively "sources", because it is for me the most appropriate name for them in the context of my article.
-
-In either case, it will always be a benefit for a reader to read them alongside my article.
+I have named them collectively "sources", because it is for me the most appropriate name for them in the context of my article. In either case, it will always be a benefit for a reader to read them alongside my article.
 
 ## The questions
 
