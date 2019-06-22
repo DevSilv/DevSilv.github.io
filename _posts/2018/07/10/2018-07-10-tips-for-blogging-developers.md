@@ -202,3 +202,15 @@ Most probably, the background of an article may involve:
 - reasons for creating;
 - history of its updates – the times that it was being updated, and optionally some description what was updated in mentioned updates;
 - other articles that are intentionally related to it, if relevant (e.g., the article may be part of an article series on the subject).
+
+### 26. If it fits the style and the subject of your article, make references.
+
+I find that explicit references help me connect things – and therefore understand them.
+
+That is, for example, imagine that two paragraphs talk about one subject: about hardware. But each of them talks about different thing within this subject: the first about the processor, and the next about the RAM. In such a situation, if I saw in the paragraph about the RAM a reference to the paragraph about the processor, I would find it easier to see that both the processor and RAM belong to the same subject, the hardware. Such a reference may look like this: "Next, we are going to talk about another hardware component..."
+
+Such references may be made not only from a paragraph to a paragraph. They may also be made:
+- between two concepts in one sentence, e.g. using "but" or "whereas";
+- between two sentences, e.g. using "they" or "the aforementioned...";
+- between two sections of the article, e.g. by "While/Since in the previous section we talked about...";
+- or between your article and another one, e.g. by "The article X talked about Y. Now, we are going to talk about the same things, but from another perspective..."
