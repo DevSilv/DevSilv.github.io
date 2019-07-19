@@ -1,3 +1,10 @@
+---
+layout: post
+title: "The structure of the Linux filesystem"
+date: 2019-03-23
+tags: Linux
+---
+
 In this article, I want to present a general overview on the directory structure in Linux.
 
 The purpose of this article is to show only the overall structure of Linux directories, and the article will contain only description of top-level directories. If one would like to read more thorough description about various concepts described here, see [the "Sources" section at the end of this article](#sources).
