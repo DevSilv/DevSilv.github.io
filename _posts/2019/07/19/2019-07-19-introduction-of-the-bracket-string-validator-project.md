@@ -9,7 +9,7 @@ In this article, I am glad to introduce my new application: bracket-string-valid
 
 Although this is not the first application of mine that I have made available publicly, of this GitHub project I have greater expectations than of the other ones (at least it seems to me).
 
-The project may be reviewed [here on GitHub]([bracket-string-validator](https://github.com/silvuss/silvuss-bracket-string-validator)). As all of the other projects of mine on GitHub, it has no license. But still, if you want – you may, among others, fork the repository (it is allowed by the [GitHub Terms of Service](https://help.github.com/en/articles/github-terms-of-service)). For details on what you may do with the project, see the section "[5. License Grant to Other Users](https://help.github.com/en/articles/github-terms-of-service#5-license-grant-to-other-users)" of the GitHub Terms of Service.
+The project may be reviewed [here on GitHub](https://github.com/silvuss/silvuss-bracket-string-validator). As all of the other projects of mine on GitHub, it has no license. But still, if you want – you may, among others, fork the repository (it is allowed by the [GitHub Terms of Service](https://help.github.com/en/articles/github-terms-of-service)). For details on what you may do with the project, see the section "[5. License Grant to Other Users](https://help.github.com/en/articles/github-terms-of-service#5-license-grant-to-other-users)" of the GitHub Terms of Service.
 
 The project contains one application of the same name. The current release of the application has the following three functionalities:
 1. it lets to validate a "bracket string" – using one of several algorithms;
@@ -40,7 +40,7 @@ The application itself would:
 - be well-tested in terms of some testing models and good practices;
 - be available on multiple platforms; I mean, one could use the application equally e.g. on Windows, Linux, MacOS and/or Android; this could be achieved also by implementing some interface available through the internet and compatible across different browsers;
 - have its interfaces effortless to use;
-- be available for multiple users; it shall embrace e.g. those who use screen readers and/or other [assistive technology for using the computer]((https://en.wikipedia.org/wiki/Assistive_technology#Computer_accessibility));
+- be available for multiple users; it shall embrace e.g. those who use screen readers and/or other [assistive technology for using the computer](https://en.wikipedia.org/wiki/Assistive_technology#Computer_accessibility);
 - have the documentation describing, in a readable way, all the necessary things to use the application; users would not need to wonder where to find particular information.
 
 Additionally, it would be nice if the application would:
@@ -52,7 +52,7 @@ The above points are, of course, only an overview of my ambitions and expectatio
 
 ### Help with another project
 
-I am currenly having trouble with learning the basics of the [Angular web framework]((https://en.wikipedia.org/wiki/Angular_(web_framework))). I hope that I could use this project to incorporate in it an interface written in Angular; therefore I would be able to make my first Angular application.
+I am currenly having trouble with learning the basics of the [Angular web framework](https://en.wikipedia.org/wiki/Angular_(web_framework)). I hope that I could use this project to incorporate in it an interface written in Angular; therefore I would be able to make my first Angular application.
 
 ## More concrete plans
 
