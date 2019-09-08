@@ -1,3 +1,10 @@
+---
+layout: post
+title: "My Angular learning, part 2"
+date: 2019-08-24
+tags: Angular My-learning-of-angular Web Development
+---
+
 This post is the second in the series "My learning of Angular".
 
 This series is an english version of the series that I have started on [my microblog](https://4programmers.net/Profile/64311/Microblog) on the forum https://4programmers.net/. This version is slightly changed also beside the language; some information out-of-date was updated, and some information related strictly to that blog was removed. The main shape and the main content remain the same.
