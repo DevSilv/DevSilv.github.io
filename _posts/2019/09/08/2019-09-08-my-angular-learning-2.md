@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My Angular learning, part 2"
-date: 2019-08-24
+date: 2019-09-08
 tags: Angular My-learning-of-angular Web Development
 ---
 
