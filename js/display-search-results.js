@@ -28,25 +28,25 @@ function displaySearchResults(noResultsText) {
                     const rLink = document.createElement("a");
                     rLink.setAttribute("href", r.link);
                     rLink.append(r.title);
-                    rLink.classList.add("search-form__results-list__item__link", "text-light", "pt-1", "pb-1", "pl-2", "pr-2");
+                    rLink.classList.add(
+                        "search-form__results-list__item__link"
+                    );
                     $(rLink).css("display", "block");
                     const rElement = document.createElement("li");
                     rElement.append(rLink);
-                    rElement.classList.add("list-group-item", "bg-primary", "border", "p-0");
                     resultsElement.append(rElement);
                 }
             } else {
                 const errorElement = document.createTextNode(noResultsText);
                 const rElement = document.createElement("li");
                 rElement.append(errorElement);
-                rElement.classList.add("list-group-item", "bg-secondary", "text-light", "pt-1", "pb-1", "pl-2", "pr-2");
                 resultsElement.append(rElement);
             }
             resultsElement.show();
         }
 
     };
-    xhttp.open("GET", "/feed.xml", true);
+    xhttp.open("GET", "/rss.xml", true);
     xhttp.send();
 
 }

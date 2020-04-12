@@ -1,20 +1,21 @@
 ---
-layout: page
+layout: default
+postcss: "/css/post.css"
+show_homepage: true
 ---
 
-<article class="col-sm-8 mt-5">
-    <ul class="d-flex justify-content-center list-unstyled">
+<main class="post">
+    <ul class="post__tags-list">
         {% if page.tags %}
         {% for tag in page.tags %}
-        <li>
-            <a href="{{ site.url }}/tags/{{ tag }}.html" class="ml-2 mr-2 pt-1 pb-1 pl-2 pr-2 my-animated-bg-border"
-                style="display: inline-block; border: 2px solid; border-radius: 5px;">{{ tag }}</a>
+        <li class="post__tags-list__tag">
+            <a href="{{ site.url }}/tags/{{ tag }}.html" class="post__tags-list__tag__link">{{ tag }}</a>
         </li>
         {% endfor %}
         {% endif %}
     </ul>
-    <p class="text-center font-weight-bold">{{ page.date | date_to_long_string }}</p>
-    <h1 class="text-center mb-4 pb-4 mt-3 my-border" style="border-bottom: 2px solid;">{{ page.title }}</h1>
+    <p class="post__date">{{ page.date | date: "%Y %B %d" }}</p>
+    <h1 class="post__title">{{ page.title }}</h1>
     {{ content }}
     <script>
         $(window).on("load", function () {
@@ -100,4 +101,4 @@ layout: page
         </header>
         <div class="comments"></div>
     </section>
-</article>
+</main>

@@ -1,0 +1,90 @@
+ul {
+    /* Override the default left padding's size for a UL element */
+    padding-left: 0;
+    /* Override the default list style for a UL element */
+    list-style: none;
+    /* Override the default top margin's size for a UL element */
+    margin-top: 0;
+    /* Override the default bottom margin's size for a UL element */
+    margin-bottom: 0;
+}
+
+.header {
+    grid-template-columns: auto auto;
+}
+
+.homepage {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.site-title {
+    text-align: center;
+    background-color: lightgrey;
+
+    padding: 10px;
+    /* Override the default top margin's size for an H1 element */
+    margin-top: 0;
+    /* Override the default bottom margin's size for an H1 element */
+    margin-bottom: 0;
+}
+
+.description-section__description {
+    margin: 0;
+    margin-top: 20px;
+}
+
+.articles-section {
+    border-top: 2px solid darkgrey;
+}
+
+.articles-section__list {
+    /* Override default list style for an LI element */
+    list-style: none;
+    /* word-wrap: break-word; */
+}
+
+.articles-section__list__article {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.articles-section__list__article:first-child {
+    padding-top: 0;
+}
+
+.articles-section__list__article:last-child {
+    padding-bottom: 0;
+}
+
+@media (max-width: 800px) {
+    .homepage {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    .description-section {
+        padding-bottom: 20px;
+    }
+
+    .articles-section {
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 800px) {
+    .homepage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .description-section {
+        margin-right: 20px;
+    }
+
+    .articles-section {
+        border-top: none;
+        border-left: 2px solid darkgrey;
+        padding-left: 20px;
+    }
+}

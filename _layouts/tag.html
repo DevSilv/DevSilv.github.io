@@ -1,21 +1,23 @@
 ---
-layout: page
+layout: default
+tagcss: "/css/tag.css"
+show_homepage: true
 ---
 
-<article class="col-sm-8">
-    <h1 class="text-center mb-4 mt-4">
-        {{ site.tag-title-prefix }} <span class="bg-light pt-1 pb-1 pl-2 pr-2 my-bg my-border" style="border: 2px solid; border-radius: 5px;">{{ page.tag }}</span>
+<main class="tag-articles">
+    <h1 class="tag-articles__title">
+        {{ site.tag-title-prefix }} <span class="tag-articles__title__tag">{{ page.tag }}</span>
     </h1>
-    <ul class="list-unstyled ">
+    <ul class="tag-articles__list">
         {% for post in site.tags[page.tag] %}
-        <li style="border-top: 2px solid #d1e0e0; padding: 16px;">
-            <h3>
-                <a href="{{ post.url }}" class="my-animated-bg-border" style="display: inline-block; border: 2px solid; border-radius: 5px; padding: 5px;">{{ post.title }}</a>
+        <li class="tag-articles__list__article">
+            <h3 class="tag-articles__list__article__title">
+                <a href="{{ post.url }}" class="tag-articles__list__article__title__link">{{ post.title }}</a>
             </h3>
-            <div class="mb-4 mt-4">
+            <div class="tag-articles__list__article__excerpt">
                 {{ post.excerpt }}
             </div>
         </li>
         {% endfor %}
     </ul>
-</article>
+</main>

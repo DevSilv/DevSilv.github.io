@@ -1,0 +1,42 @@
+.header {
+    grid-template-columns: auto auto auto;
+}
+
+ul {
+    /* Override the default left padding's size for a UL element */
+    padding-left: 0;
+    /* Override the default list style for a UL element */
+    list-style: none;
+    /* Override the default top margin's size for a UL element */
+    margin-top: 0;
+    /* Override the default bottom margin's size for a UL element */
+    margin-bottom: 0;
+}
+
+.tag-articles__title {
+    text-align: center;
+    
+    line-height: 3.5rem;
+}
+
+.tag-articles__title__tag {
+    background-color: beige;
+
+    border: 2px solid grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tag-articles__list__article__title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    .tag-articles {
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+}
