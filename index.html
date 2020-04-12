@@ -1,22 +1,26 @@
 ---
 layout: default
+cssfiles: ["/css/index.css"]
+show_homepage: false
 ---
 
-{% include header.html wide="false" %}
-<main class="row mt-2 justify-content-sm-center">
-    <section class="col-sm-4 text-center p-3">
-        <div class="pr-sm-3">
-            <h1 class="mb-4">{{ site.title }}</h1>
-            <p class="mb-4">{{ site.description }}</p>
-            <p class="mt-4 mb-4">This place is hosted on <a href="https://github.com/">GitHub</a>. If you have any comments about it, you can use GitHub's issues of <a href="https://github.com/silvuss/silvuss.github.io">the project</a> that stores all the content displayed here.</p>
-            <p class="mt-4">For any further details, see <a href="https://github.com/silvuss/silvuss.github.io/blob/master/README.md">this project's README</a>.</p>
-        </div>
+<main class="homepage">
+    <section class="description-section">
+        <h1 class="site-title">{{ site.title }}</h1>
+        <p class="description-section__description">{{ site.description }}</p>
+        <p class="description-section__description">This place is hosted on <a href="https://github.com/">GitHub</a>.If
+            you have any comments about it, you can use GitHub's issues of <a
+                href="https://github.com/silvuss/silvuss.github.io">the project</a> that stores all the content
+            displayed here.</p>
+        <p class="description-section__description">For any further details, see <a
+                href="https://github.com/silvuss/silvuss.github.io/blob/master/README.md">this project's README</a>.</p>
     </section>
-    <section class="col-sm-4 text-center p-3">
-        <ul class="list-group list-group-flush">
+    <section class="articles-section">
+        <ul class="articles-section__list">
             {% for post in site.posts %}
-            <li class="list-group-item m-1 my-animated-bg-border" style="padding: 0; border-radius: 5px; border: 2px solid;">
-                <a href="{{ site.baseurl }}{{ post.url }}" style="display: block; padding: 10px;">{{ post.title }} — {{ post.date | date: "%Y %B %d" }}</a>
+            <li class="articles-section__list__article">
+                <a class="articles-section__list__article__link"
+                    href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%Y %B %d" }}
             </li>
             {% endfor %}
         </ul>

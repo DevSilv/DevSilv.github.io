@@ -1,0 +1,70 @@
+.header {
+    grid-template-columns: auto auto auto;
+}
+
+.post__title {
+    text-align: center;
+
+    padding-bottom: 20px;
+    /* The bottom margin's size is 40px in order to be the same
+    as the top margin of the heading H2 */
+    margin-bottom: 40px;
+    border-bottom: 10px solid lightgrey;
+}
+
+h2 {
+    /* The heading H2's size is 40px in order to better differentiate headings
+    from paragraphs P (default bottom margin size's for paragraph P
+    on Firefox 74.0 is 16px) */
+    margin-top: 40px;
+}
+
+h3 {
+    /* The heading H2's size is 30px in order to better differentiate headings
+    from paragraphs P (default bottom margin size's for paragraph P
+    on Firefox 74.0 is 16px) */
+    margin-top: 30px;
+}
+
+.post li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.post__tags-list {
+    list-style: none;
+    text-align: center;
+
+    margin-top: 20px;
+    line-height: 1.7rem;
+    padding-left: 0;
+}
+
+.post__tags-list__tag {
+    display: inline-block;
+}
+
+.post__tags-list__tag__link {
+    background-color: beige;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid grey;
+}
+
+.post__tags-list__tag__link:hover {
+    background-color: lightgrey;
+}
+
+.post__date {
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

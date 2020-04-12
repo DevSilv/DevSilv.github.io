@@ -5,7 +5,7 @@ function searchAndDisplay(noResultsText) {
     // const xhr = new XMLHttpRequest();
     // xhr.onreadystatechange = function() {
     // if (this.readyState == 4 && this.status == 200) {
-    $.get("/feed.xml", function(data) {
+    $.get("/rss.xml", function (data) {
         console.log(data);
         console.log(data.toSource());
         resultsListElement.empty();
@@ -52,6 +52,6 @@ function searchAndDisplay(noResultsText) {
     }, "xml");
     // }
     // };
-    // xhr.open("GET", "/feed.xml", true);
+    // xhr.open("GET", "/rss.xml", true);
     // xhr.send();
 }

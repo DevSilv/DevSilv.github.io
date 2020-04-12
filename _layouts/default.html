@@ -10,32 +10,74 @@
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{{ site.meta-description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ site.url }}/css/custom.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}{{ site.data.internal-uris.css.default }}">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="{{ site.data.internal-uris.js.display-search-results }}"></script>
     <script src="{{ site.data.internal-uris.js.search }}"></script>
+
+    {% if layout %}
+
+    {% if layout.pagecss %}
+    {% for file in layout.pagecss %}
+    <link rel="stylesheet" href="{{ site.baseurl }}{{ file }}">
+    {% endfor %}
+    {% endif %}
+
+    {% if layout.postcss %}
+    {% for file in layout.postcss %}
+    <link rel="stylesheet" href="{{ site.baseurl }}{{ file }}">
+    {% endfor %}
+    {% endif %}
+
+    {% if layout.tagcss %}
+    {% for file in layout.tagcss %}
+    <link rel="stylesheet" href="{{ site.baseurl }}{{ file }}">
+    {% endfor %}
+    {% endif %}
+
+    {% endif %}
+
     {% if page %}
+
+    {% if page.cssfiles %}
+    {% for file in page.cssfiles %}
+    <link rel="stylesheet" href="{{ site.baseurl }}{{ file }}">
+    {% endfor %}
+    {% endif %}
+
     {% if page.title %}
     <title>{{ page.title }} | {{ site.title }}</title>
     {% else %}
     <title>{{ site.title }}</title>
     {% endif %}
+
     {% endif %}
 </head>
 
 <body>
-    <div class="container-fluid" style="height: 100vh; display: grid; grid-template-rows: auto 1fr auto;">
-        {{ content }}
-        <footer class="row text-dark p-3 text-center justify-content-sm-center my-bg my-border"
-            style="border-top: 2px solid;">
-            <div class="col-sm-8">
-                <span class="mr-2">{{ site.footer-copyright }}</span> | <span
-                    class="ml-2 mr-2">{{ site.footer-license }}</span> | <span
-                    class="ml-2">{{ site.footer-icon }}</span>
+    <div class="container">
+        <header class="header">
+            {% if layout.show_homepage == true or page.show_homepage == true %}
+            <a class="homepage-link" href="{{ site.url }}">Homepage</a>
+            {% endif %}
+            <form class="search-form" onsubmit="event.preventDefault();">
+                <input id="search-form__input" class="search-form__input" type="text"
+                    placeholder="{{ site.data.strings.search.placeholder }}" onblur="hideResults(event);"
+                    onfocus="showResults();" onkeyup="search('{{ site.data.strings.search.no-search-results }}');">
+                <ul id="search-form__results-list" class="search-form__results-list"></ul>
+            </form>
+            <div class="feed">
+                <span class="feed__label">RSS:</span>
+                <a class="feed__link" href="{{ site.data.internal-uris.xml.feed }}">
+                    <img class="feed__icon" src="{{ site.data.internal-uris.images.feed }}">
+                </a>
             </div>
+        </header>
+        {{ content }}
+        <footer class="footer">
+            <span>{{ site.footer-copyright }}</span> | <span>{{ site.footer-license }}</span> |
+            <span>{{ site.footer-icon }}</span>
         </footer>
     </div>
 </body>

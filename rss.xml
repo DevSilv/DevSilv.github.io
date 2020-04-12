@@ -10,8 +10,8 @@ layout: none
         <author>{{ site.author | xml_escape }}</author>
 		<description>{{ site.description | xml_escape }}</description>
 		<link>{{ site.url }}</link>
-		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-        {% for post in site.posts limit:10 %}      
+		<atom:link href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml" />
+        {% for post in site.posts %}
             <item>
                 <title>{{ post.title | xml_escape }}</title>
                 <description>{{ post.excerpt | xml_escape }}</description>
