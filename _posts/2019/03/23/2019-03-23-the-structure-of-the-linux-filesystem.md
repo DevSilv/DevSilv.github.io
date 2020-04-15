@@ -20,15 +20,8 @@ Lastly, **please be aware that I am not an expert in Linux, operating systems no
 ## Preface
 
 - It is assumed that the article is generally written in the context of Linux. Some parts may be true also in the context of Unix or other operating system – but to be sure whether this is the case, prior to this article one should always refer to appropriate definitions and standards of particular terms, concepts, technologies etc.
-
 - The term "kernel" used within this article means the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel).
-
-- The term "Linux directory structure" used within this article means the structure of directories existing by default in most Linux distrubutions. Not every described directory must appear in every Linux distribution.
-
-    Also, some may call the Linux directory structure a "Linux filesystem structure", and also the standard behind it is called "Filesystem Hierarchy Standard" (see below the section ["The origin of the directory structure on Linux"](#the-origin-of-the-directory-structure-on-linux)). For details, see for example [Wikipedia's article about filesystem](https://en.wikipedia.org/wiki/File_system) and [Wikipedia's article about directory structure](https://en.wikipedia.org/wiki/Directory_structure).
-
-    I do not know which term is more appropriate. Within this article, I am using the term "directory structure".
-
+- The term "Linux directory structure" used within this article means the structure of directories existing by default in most Linux distrubutions. Not every described directory must appear in every Linux distribution. — Also, some may call the Linux directory structure a "Linux filesystem structure", and also the standard behind it is called "Filesystem Hierarchy Standard" (see below the section ["The origin of the directory structure on Linux"](#the-origin-of-the-directory-structure-on-linux)). For details, see for example [Wikipedia's article about filesystem](https://en.wikipedia.org/wiki/File_system) and [Wikipedia's article about directory structure](https://en.wikipedia.org/wiki/Directory_structure). — I do not know which term is more appropriate. Within this article, I am using the term "directory structure".
 - The terms "directory" and "folder" may be understood in two ways: (1) they are equivalent, or (2) they are not equivalent (that is, terms "directory structure" and "folder structure" may be understand as distinct ones). In this article, I am using mostly the "directory" term; the "folder" term is used only when the context demands speaking about a folder and not a directory. For details about distinction and definitions of these terms, see for example [Wikipedia's article about directory](https://en.wikipedia.org/wiki/Directory_(computing)) or [this StackExchange thread](https://stackoverflow.com/questions/5078676/what-is-the-difference-between-a-directory-and-a-folder).
 - The directories described are not put in strictly alphabetical order, as it is usually done. Instead, I have tried to put similar directories next to each other (e.g. the `/sbin` directory next to the `/bin` directory).
 
