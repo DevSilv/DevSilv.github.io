@@ -2,7 +2,7 @@
 layout: post
 title: "Tips for blogging developers v.2"
 date: 2020-04-08
-tags: Development Blogging Update
+tags: Software-development Blogging Update
 ---
 
 **Info: this is an updated version of my article "Tips for blogging developers" that was published on this blog on July 10, 2018.**

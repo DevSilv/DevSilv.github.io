@@ -2,7 +2,7 @@
 layout: post
 title: "The conventions for GitHub projects that I use"
 date: 2019-09-07
-tags: GitHub Development Projects
+tags: GitHub Software-development Projects
 ---
 
 In this article, I attempt to tell you about my conventions while working with projects that are to be published on GitHub (i.e. that are to be public on GitHub). They are to be read as "conventions that are to be obeyed in my projects".

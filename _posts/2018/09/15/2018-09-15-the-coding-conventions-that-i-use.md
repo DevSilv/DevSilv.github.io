@@ -2,7 +2,7 @@
 layout: post
 title: "The coding conventions that I use"
 date: 2018-09-15
-tags: Development
+tags: Software-development
 ---
 
 There are many [coding conventions](https://en.wikipedia.org/wiki/Coding_conventions) out there. In this article I attempt to tell you about mine. Note that when it comes to some tips on the coding style and some of the best coding practices (that I try to use), I have already written [an article](https://silvuss.github.io/2018/07/10/the-things-that-every-blogging-developer.html).

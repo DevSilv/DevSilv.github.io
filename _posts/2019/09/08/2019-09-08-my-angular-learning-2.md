@@ -2,7 +2,7 @@
 layout: post
 title: "My Angular learning, part 2"
 date: 2019-09-08
-tags: Angular My-learning-of-angular Web Development
+tags: Angular My-learning-of-angular Web Software-development
 ---
 
 This post is the second in the series "My learning of Angular".

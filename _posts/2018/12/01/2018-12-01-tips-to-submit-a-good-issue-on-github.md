@@ -2,7 +2,7 @@
 layout: post
 title: "Tips to submit a good issue on GitHub"
 date: 2018-12-01
-tags: Development
+tags: Software-development
 ---
 
 In this article I would like to present my proposition on submitting a good issue on GitHub. It originates from a page (already non-existing) in the Wiki of my project [silvuss-example-jsgame](https://github.com/silvuss/silvuss-example-jsgame).
