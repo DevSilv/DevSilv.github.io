@@ -1,6 +1,6 @@
 # silvuss-thoughts
 
-This project contains a website with my (silvuss's) thoughts. I treat it as my blog. You can find here, for example, thoughts on technical writing, and philosophic thoughts.
+This project contains a website with my (silvuss') thoughts. I treat it as my blog. You can find here, for example, thoughts on technical writing, and philosophic thoughts.
 
 ## Table of contents
 
