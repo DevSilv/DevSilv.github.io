@@ -14,7 +14,7 @@ show_homepage: true
         {% endfor %}
         {% endif %}
     </ul>
-    <p class="post__date">{{ page.date | date: "%d %B %Y" }}</p>
+    <p class="post__date">{{ page.date | date: "%Y %B %d" }}</p>
     <h1 class="post__title">{{ page.title }}</h1>
     {{ content }}
     <script>
