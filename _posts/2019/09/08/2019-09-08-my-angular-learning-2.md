@@ -2,7 +2,7 @@
 layout: post
 title: "My Angular learning, part 2"
 date: 2019-09-08
-tags: Angular My-learning-of-angular Web Software-development
+tags: Angular My-learning-of-Angular Web Software-development
 ---
 
 This post is the second in the series "My learning of Angular".
@@ -31,7 +31,7 @@ This part is to contain the sources and materials that I have used during my lea
 - `used` – some or all of the information of the material has been used. Materials with the status `used` may also have the status `to-be-used`.
 - `not-suitable` – no information from the material has not been yet used and assessed as useful in the future; the material is mentioned only to avoid the mistake of reading it for the second time.
 - `partially-read` – the material has been read only in that its part in that it has been assessed as appropriate to the goal of reading (and the rest of it is not planned to be read in the future; it could be read, but is not required to).
-- Strikethrough (~~strikethrough~~) – the material contains information that initially has been assessed as useful, but after reading, the whole material has been assessed as not useful. Its reading has been started, but has not been finished.
+- Strikethrough (example: ~~strikethrough~~) – the material contains information that initially has been assessed as useful, but after reading, the whole material has been assessed as not useful. Its reading has been started, but has not been finished.
 
 ### The list of sources and materials related DIRECTLY to my learning
 
