@@ -8,7 +8,6 @@ This project contains a website with my (silvuss') thoughts. I treat it as my bl
 2. [Disclaimers](#disclaimers)
 3. [How to see this website?](#how-to-see-this-website)
 4. [Environments, tools and technologies used](#environments-tools-and-technologies-used)
-5. [Details](#details)
 
 ## Copyright note
 
@@ -22,7 +21,7 @@ Also note that I can add a license in the future if it would be relevant to the 
 
 ## Disclaimers
 
-Although I have made efforts to make the website (that this project contains) work as intended and described, it is not a "professional" website. Specifically, it was not tested in terms of separate unit tests or similar. It was tested to build on one platform. For details on the platform, see the section "[Environment, tools and technologies used](#environment-tools-and-technologies-used)" below.
+Although I have made efforts to make the website (that this project contains) work as intended and described, it is not a "professional" website. Specifically, it was not tested in terms of separate unit tests or similar. It was tested to build on one platform. For details on the platform, see the section "[Environment, tools and technologies used](#environments-tools-and-technologies-used)" below.
 
 ## How to see this website?
 
