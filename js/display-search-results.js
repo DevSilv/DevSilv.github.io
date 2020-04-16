@@ -2,9 +2,9 @@ function displaySearchResults(noResultsText) {
     const input = $("#search-form__input");
     const resultsElement = $("#search-form__results-list");
 
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
+    const xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState === 4 && this.status === 200) {
             resultsElement.empty();
             const data = this.response;
             const xml = new DOMParser().parseFromString(data, "text/xml");
