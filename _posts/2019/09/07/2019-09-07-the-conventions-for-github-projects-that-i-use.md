@@ -5,7 +5,15 @@ date: 2019-09-07
 tags: GitHub Software-development Projects
 ---
 
-In this article, I attempt to tell you about my conventions while working with projects that are to be published on GitHub (i.e. that are to be public on GitHub). They are to be read as "conventions that are to be obeyed in my projects".
+**UPDATE:**
+
+I wrote a new article about my Git workflow; you can read it [here]({{ site.url }}/2020/04/18/living-my-git-workflow.html). It extends and improves the Git workflow described in this article.
+
+**Important:** the workflow described in this article is effectively becoming superseded with the workflow described in the new article. If you need to refer to the description of my workflow, **please refer only to the new article**.
+
+---
+
+In this article, I attempt to tell you about my conventions while working with projects that are to be published on GitHub (speaking differently, that are to be **public** on GitHub). They are to be read as "conventions that are to be obeyed within my personal projects".
 
 These conventions are already written in the developer documentation of my project "[bracket-string-validator](https://github.com/silvuss/silvuss-bracket-string-validator)". I have decided to describe them again here, in a new blog post, to gain some clarity and consitency across all of my projects on GitHub. Comparing with the original one, the description is slightly changed, but significantly added to.
 
