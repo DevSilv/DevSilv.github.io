@@ -5,7 +5,7 @@ date: 2018-09-15
 tags: Software-development
 ---
 
-There are many [coding conventions](https://en.wikipedia.org/wiki/Coding_conventions) out there. In this article I attempt to tell you about mine. Note that when it comes to some tips on the coding style and some of the best coding practices (that I try to use), I have already written [an article](https://silvuss.github.io/2018/07/10/the-things-that-every-blogging-developer.html).
+There are many [coding conventions](https://en.wikipedia.org/wiki/Coding_conventions) out there. In this article I attempt to tell you about mine. Note that when it comes to some tips on the coding style and some of the best coding practices (that I try to use), I have already written [an article]({{ site.url }}/2018/07/10/the-things-that-every-blogging-developer.html).
 
 I will cover my coding conventions of the following languages:
 - HTML

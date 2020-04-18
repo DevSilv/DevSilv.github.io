@@ -13,7 +13,7 @@ I have fixed some typos, mistakes, inadequacies and inconsistencies. I've added 
 
 As always, I appreciate if you point out my typos, mistakes and inconsistencies. Also, I appreciate comments and remarks that could make me to look from another perspective at the issues presented in the article.
 
-You can read the previous version of this article under this link: https://silvuss.github.io/2018/07/10/tips-for-blogging-developers.html
+You can read the previous version of this article under this link: {{ site.url }}/2018/07/10/tips-for-blogging-developers.html
 
 ---
 
