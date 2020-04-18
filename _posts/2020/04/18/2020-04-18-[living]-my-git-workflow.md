@@ -54,13 +54,14 @@ I've grouped the workflow's description into 4 sections: the first section cover
             7. Each of the elements of its list, if possible, represents the intentions for doing the part of work that the element describes.
             8. Each of the elements of its list, if the description of the issue that the element corresponds to does not corresponds 1:1 to the part of work that element describes, the element, if possible, describes the mapping between the description of the issue and the description of the part of work.
         2. In case of the part of commit message beyond the commit's title: this part is to fulfil all of the following conditions:
-            1. It consists of a list containing zero or more elements, but no more than the list within the commit's title; the _ith_ element of this list corresponds to the _ith_ element of the list within the commit's title.
-            2. Each of the elements of its list starts with a capital letter.
-            3. Each of the elements of its list ends with a dot.
-            4. Each of the elements of its list, if possible, is written in the imperative mood.
-            5. Each of the elements of its list represents a longer <a id="6top" href="#6bottom">[6]</a> description of the part of work that is described by the corresponding element of the list of the commit's title.
-            6. Each of the elements of its list is meaningful for the part of work that is described by the corresponding element of the list of the commit's title.
-            7. Each of the elements of its list, if possible, represents the intentions for doing the part of work that is described by the corresponding element of the list of the commit's title.
+            1. It consists of a list containing zero or more elements, but no more than the list within the commit's title; if the length of the list is not zero, it is equal to the length of the list within the commit's title.
+            2. If the legnth of its list is not zero, the _ith_ element of this list corresponds to the _ith_ element of the list within the commit's title.
+            3. Each of the elements of its list starts with a capital letter.
+            4. Each of the elements of its list ends with a dot.
+            5. Each of the elements of its list, if possible, is written in the imperative mood.
+            6. Each of the elements of its list represents a longer <a id="6top" href="#6bottom">[6]</a> description of the part of work that is described by the corresponding element of the list of the commit's title.
+            7. Each of the elements of its list is meaningful for the part of work that is described by the corresponding element of the list of the commit's title.
+            8. Each of the elements of its list, if possible, represents the intentions for doing the part of work that is described by the corresponding element of the list of the commit's title.
 
 #### Changing/deleting/removing/replacing commits
 
