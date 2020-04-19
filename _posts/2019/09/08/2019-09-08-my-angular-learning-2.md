@@ -36,17 +36,17 @@ This part is to contain the sources and materials that I have used during my lea
 ### The list of sources and materials related DIRECTLY to my learning
 
 - Source A: https://en.wikipedia.org/wiki/Main_Page
-    - Material A.1 `used`: https://en.wikipedia.org/wiki/Angular_(web_framework) (Mar-2017-Apr-2019 (checked 19-May-2019))
+    - Material A.1 `used`: https://en.wikipedia.org/wiki/Angular_(web_framework) (Mar-2017-04-2019 (checked 19-05-2019))
 - Source B: https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna
 - Source C: https://stackexchange.com/
     - Source C.A: https://stackoverflow.com/
-        - Material C.A.1 `used`: https://stackoverflow.com/questions/41164866/why-was-angular-3-skipped-and-what-are-the-major-differences-in-angular-4-beta (Dec-2016-Feb-2019 (checked 19-May-2019))
-        - Material C.A.2 `used`: https://stackoverflow.com/questions/15078487/use-cases-for-using-angularjs-and-jquery (Feb-2013-Apr-2015 (checked 19-May-2019))
+        - Material C.A.1 `used`: https://stackoverflow.com/questions/41164866/why-was-angular-3-skipped-and-what-are-the-major-differences-in-angular-4-beta (Dec-2016-02-2019 (checked 19-05-2019))
+        - Material C.A.2 `used`: https://stackoverflow.com/questions/15078487/use-cases-for-using-angularjs-and-jquery (Feb-2013-04-2015 (checked 19-05-2019))
         - Material C.A.3 `to-be-read`: https://stackoverflow.com/questions/15231251/is-angularjs-just-for-single-page-applications-spas
         - Material C.A.4 `to-be-read`: https://stackoverflow.com/questions/14994391/thinking-in-angularjs-if-i-have-a-jquery-background/15012542
         - Material C.A.5 `partially-read` `used`: https://stackoverflow.com/questions/50605219/difference-between-npx-and-npm
         - Material C.A.6 `to-be-used` `used` `read`: https://stackoverflow.com/questions/50098245/what-exactly-triggers-main-ts-in-angular
-    - Material C.1 `used`: https://softwareengineering.stackexchange.com/questions/197599/why-would-i-use-angular (May-2013-May-2015 (checked 19-May-2019))
+    - Material C.1 `used`: https://softwareengineering.stackexchange.com/questions/197599/why-would-i-use-angular (05-2013-05-2015 (checked 19-05-2019))
 - Source D: https://github.com/
     - Source D.A: https://github.com/angular
         - Source D.A.A: https://github.com/angular/angular-cli

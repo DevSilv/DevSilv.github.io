@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The introduction of releases in the project"
-date: 2020-Apr-18
+date: 2020-04-18
 tags: This-project
 ---
 
