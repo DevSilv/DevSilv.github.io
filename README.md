@@ -25,7 +25,7 @@ Although I have made efforts to make the website (that this project contains) wo
 
 ## How to see this website?
 
-One can see this website online by going to the following URL in their web browser: https://silvuss.github.io/
+One can see this website online by going to the following URL in their web browser: {{ site.url }}
 
 ## Environments, tools and technologies used
 
