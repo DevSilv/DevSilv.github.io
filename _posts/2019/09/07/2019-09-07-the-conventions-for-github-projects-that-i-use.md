@@ -17,7 +17,7 @@ In this article, I attempt to tell you about my conventions while working with p
 
 These conventions are already written in the developer documentation of my project "[bracket-string-validator](https://github.com/silvuss/silvuss-bracket-string-validator)". I have decided to describe them again here, in a new blog post, to gain some clarity and consitency across all of my projects on GitHub. Comparing with the original one, the description is slightly changed, but significantly added to.
 
-However, it is worth mentioning that I already have some projects on GitHub that DO NOT follow all (or any) of these conventions. This is to be changed in the future, since I aspire to gain uniformity across all of my public projects on GitHub. Projects marked as "ARCHIVED" are not to be changed.
+However, it's worth mentioning that I already have some projects on GitHub that **do not** follow all (in some cases, maybe even any) of these conventions. This is to be changed in the future, since I aspire to gain uniformity across all of my public projects on GitHub. Projects marked as "ARCHIVED" are not to be changed.
 
 ## Git
 
@@ -160,7 +160,7 @@ Minor releases are those releases which versions have the minor version number i
 - any part of the public API has been deprecated.
 
 The deprecation of the public API is to be one-minor-or-major-release long. For example: if a feature is deprecated from the release 1.0.0 on, there may occur one and only one of the following situations:
-- If no parts of the public API have been deprecated in the last release, this feature will exist for the next release 1.1.0 and will be removed in the release 2.0.0. Due to the deprecation, no release with the version of the form 1.2.x will be made (for details why is that, see the [point 7 of the specification of Semantic Versioning, v2.0.0](https://semver.org/spec/v2.0.0.html#spec-item-7)).
+- If no parts of the public API have been deprecated in the last release, this feature will exist for the next release 1.1.0 and will be removed in the release 2.0.0. Due to the deprecation, no release with the version of the form 1.2.x will be made (for details why is that, see the [point 7 of the specification of Semantic Versioning, v2.0.0](https://semver.org/spec/v2.0.0.html#spec-item-7))
 - If any parts of the public API have been deprecated in the last release, this feature will exist for the next release 2.0.0 and will be removed in the release 3.0.0. Due to the deprecation, no release with a version of a form 2.y.x will be made.
 
 #### Patch releases
@@ -190,3 +190,8 @@ An unstable release is to be indicated by putting a postfix at the end of its ve
 ### Commits and issues
 
 A commit is to correspond to zero or one issue.
+
+
+
+
+https://developer.github.com/v3/#rate-limiting
