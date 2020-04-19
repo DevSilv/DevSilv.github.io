@@ -54,7 +54,7 @@ The reason for releasing the version 2.0 — and consecutive versions — before
 
 ## A new versioning scheme
 
-There is already an article published on this blog, "[The conventions for GitHub projects that I use](https://silvuss.github.io/2019/09/07/the-conventions-for-github-projects-that-i-use.html)"; it contains my own rules about my own projects. Particularly, it states that:
+There is already an article published on this blog, "[The conventions for GitHub projects that I use]({{ site.url }}/2019/09/07/the-conventions-for-github-projects-that-i-use.html)"; it contains my own rules about my own projects. Particularly, it states that:
 
 > To version the releases, Semantic Versioning is to be used.
 
