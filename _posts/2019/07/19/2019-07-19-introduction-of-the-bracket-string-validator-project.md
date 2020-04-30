@@ -9,20 +9,20 @@ In this article, I am glad to introduce my new application: bracket-string-valid
 
 Although this is not the first application of mine that I have made available publicly, of this GitHub project I have greater expectations than of the other ones (at least it seems to me).
 
-The project may be reviewed [here on GitHub](https://github.com/silvuss/silvuss-bracket-string-validator). As all of the other projects of mine on GitHub, it has no license. But still, if you want – you may, among others, fork the repository (it is allowed by the [GitHub Terms of Service](https://help.github.com/en/articles/github-terms-of-service)). For details on what you may do with the project, see the section "[5. License Grant to Other Users](https://help.github.com/en/articles/github-terms-of-service#5-license-grant-to-other-users)" of the GitHub Terms of Service.
+The project may be reviewed [here on GitHub](https://github.com/devsilv/devsilv-bracket-string-validator). As all of the other projects of mine on GitHub, it has no license. But still, if you want – you may, among others, fork the repository (it is allowed by the [GitHub Terms of Service](https://help.github.com/en/articles/github-terms-of-service)). For details on what you may do with the project, see the section "[5. License Grant to Other Users](https://help.github.com/en/articles/github-terms-of-service#5-license-grant-to-other-users)" of the GitHub Terms of Service.
 
 The project contains one application of the same name. The current release of the application has the following three functionalities:
 1. it lets to validate a "bracket string" – using one of several algorithms;
 2. it lets to unit-test the validation algorithms;
 3. it lets to benchmark the validation algorithms.
 
-A "bracket string" is, as the project [README](https://github.com/silvuss/silvuss-bracket-string-validator/blob/master/README.md) states:
+A "bracket string" is, as the project [README](https://github.com/devsilv/devsilv-bracket-string-validator/blob/master/README.md) states:
 > ...a string that consists only of properly closed brackets (be it `()`, `[]` or `{}`); what is more, brackets of each type must be closed properly in relation to all of the other types that exist in the string. Examples of bracket strings: `()` or `({()})[]`. Examples of "non-bracket strings": `)(` or `([)]`.
 
 
 The current release is 1.1.0, and there is planned the release 1.2.0. 
 
-You can read more details about the application in its [README](https://github.com/silvuss/silvuss-bracket-string-validator/blob/master/README.md), or in its documentation within the [/docs directory](https://github.com/silvuss/silvuss-bracket-string-validator/tree/master/docs). In case of any doubts, refer to the source code.
+You can read more details about the application in its [README](https://github.com/devsilv/devsilv-bracket-string-validator/blob/master/README.md), or in its documentation within the [/docs directory](https://github.com/devsilv/devsilv-bracket-string-validator/tree/master/docs). In case of any doubts, refer to the source code.
 
 ## Ambitions and expectations
 
