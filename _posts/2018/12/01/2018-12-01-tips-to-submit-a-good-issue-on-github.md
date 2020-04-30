@@ -5,7 +5,7 @@ date: 2018-12-01
 tags: Software-development
 ---
 
-In this article I would like to present my proposition on submitting a good issue on GitHub. It originates from a page (already non-existing) in the Wiki of my project [silvuss-example-jsgame](https://github.com/silvuss/silvuss-example-jsgame).
+In this article I would like to present my proposition on submitting a good issue on GitHub. It originates from a page (already non-existing) in the Wiki of my project [DevSilv-example-jsgame](https://github.com/devsilv/devsilv-example-jsgame).
 
 ## Four disclaimers before we start
 
