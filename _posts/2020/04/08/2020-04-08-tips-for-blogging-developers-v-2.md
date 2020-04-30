@@ -56,7 +56,7 @@ In the tips I assume that:
 
 Generally, it should not matter what language or languages the article is written in (English, German, etc.) for the meaning of the tips.
 
-**Remember, these tips may not fit all kinds of articles that you write / you want to write. If you are not familiar with some of them, you can make [an issue](https://help.github.com/articles/about-issues/) in [this project](https://github.com/silvuss/silvuss.github.io) on GitHub. Also, if you find any contradictions between any rules, you can make an issue on that.**
+**Remember, these tips may not fit all kinds of articles that you write / you want to write. If you are not familiar with some of them, you can make [an issue](https://help.github.com/articles/about-issues/) in [this project](https://github.com/devsilv/devsilv.github.io) on GitHub. Also, if you find any contradictions between any rules, you can make an issue on that.**
 
 The tips are not to be written in any particular order, but I've tried to put some of the most important first.
 
