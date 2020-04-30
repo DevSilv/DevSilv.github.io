@@ -56,4 +56,4 @@ I am currenly having trouble with learning the basics of the [Angular web framew
 
 ## More concrete plans
 
-If you want to see my most concrete plans about this project, see [the project issues](https://github.com/silvuss/silvuss-bracket-string-validator/issues). I try to describe there, in a readable way, what is going to be done. Currently, I do not maintain another design of, or specification for the future functionality of the application.
+If you want to see my most concrete plans about this project, see [the project issues](https://github.com/devsilv/devsilv-bracket-string-validator/issues). I try to describe there, in a readable way, what is going to be done. Currently, I do not maintain another design of, or specification for the future functionality of the application.
