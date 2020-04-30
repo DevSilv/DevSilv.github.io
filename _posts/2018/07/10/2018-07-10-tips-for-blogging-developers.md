@@ -25,7 +25,7 @@ In the tips, I am assuming that **one** is writing **an article**. This article 
 
 Generally, it should not matter what language is used.
 
-**Remember, these tips may not fit all kinds of articles that you write / you want to write. If you are not familiar with some of them, you can make [an issue](https://help.github.com/articles/about-issues/) in [this project](https://github.com/silvuss/silvuss.github.io) on GitHub. Also, if you find any contradictions between any rules, you can make an issue on that.**
+**Remember, these tips may not fit all kinds of articles that you write / you want to write. If you are not familiar with some of them, you can make [an issue](https://help.github.com/articles/about-issues/) in [this project](https://github.com/devsilv/devsilv.github.io) on GitHub. Also, if you find any contradictions between any rules, you can make an issue on that.**
 
 The tips are not written in any particular order, but I have tried to put some of the most important first.
 
