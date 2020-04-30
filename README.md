@@ -1,6 +1,6 @@
-# silvuss-thoughts
+# DevSilv blog
 
-This project contains a website with my (silvuss') thoughts. I treat it as my blog. You can find here, for example, thoughts on technical writing, and philosophic thoughts.
+This project contains a website with my (DevSilv) thoughts. I treat it as my blog. You can find here, for example, thoughts on technical writing, and philosophic thoughts.
 
 ## Table of contents
 
@@ -11,7 +11,7 @@ This project contains a website with my (silvuss') thoughts. I treat it as my bl
 
 ## Copyright note
 
-Note that this project "silvuss-thoughts" (this repository) has currently **no license**, as explained in [this GitHub guide on licensing projects](https://choosealicense.com/no-permission/).
+Note that this project (this repository) has currently **no license**, as explained in [this GitHub guide on licensing projects](https://choosealicense.com/no-permission/).
 
 For your convenience, I am including below a quote from that site:
 
