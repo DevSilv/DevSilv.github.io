@@ -15,7 +15,7 @@ I wrote a new article about my Git workflow; you can read it [here]({{ site.url 
 
 In this article, I attempt to tell you about my conventions while working with projects that are to be published on GitHub (speaking differently, that are to be **public** on GitHub). They are to be read as "conventions that are to be obeyed within my personal projects".
 
-These conventions are already written in the developer documentation of my project "[bracket-string-validator](https://github.com/silvuss/silvuss-bracket-string-validator)". I have decided to describe them again here, in a new blog post, to gain some clarity and consitency across all of my projects on GitHub. Comparing with the original one, the description is slightly changed, but significantly added to.
+These conventions are already written in the developer documentation of my project "[bracket-string-validator](https://github.com/devsilv/devsilv-bracket-string-validator)". I have decided to describe them again here, in a new blog post, to gain some clarity and consitency across all of my projects on GitHub. Comparing with the original one, the description is slightly changed, but significantly added to.
 
 However, it's worth mentioning that I already have some projects on GitHub that **do not** follow all (in some cases, maybe even any) of these conventions. This is to be changed in the future, since I aspire to gain uniformity across all of my public projects on GitHub. Projects marked as "ARCHIVED" are not to be changed.
 
