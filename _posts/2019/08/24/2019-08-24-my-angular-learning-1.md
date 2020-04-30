@@ -62,7 +62,7 @@ The bulk of the posts' text will have Markdown syntax (as in other posts on this
 
 1. **Will the posts be educational?** — No, I do not aim at learning anybody anything; but, if anybody would like to learn – help yourself.
 
-2. **Are you practiced at programming/web programming/JavaScript programming?** — I know at least a little about each of these disciplines; for details, see [my GitHub account](https://github.com/silvuss) or other posts on this blog.
+2. **Are you practiced at programming/web programming/JavaScript programming?** — I know at least a little about each of these disciplines; for details, see [my GitHub account](https://github.com/devsilv) or other posts on this blog.
 
 3. **Do you accept feature requests (i.e., suggestions), when it comes to the content of the posts from this series?** — No; I will decide myself what I am going to write about. Of course, you may suggest things in the comments.
 
