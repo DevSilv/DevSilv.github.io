@@ -8,20 +8,15 @@ show_homepage: false
     <section class="description-section">
         <h1 class="site-title">{{ site.title }}</h1>
         <p class="description-section__description">{{ site.description }}</p>
-        <p class="description-section__description">This place is hosted on <a href="https://github.com/">GitHub</a>.If
-            you have any comments about it, you can use GitHub's issues of <a
-                href="https://github.com/silvuss/{{ site.part-url }}">the project</a> that stores all the content
-            displayed here.</p>
-        <p class="description-section__description">For any further details, see <a
-                href="https://github.com/silvuss/{{ site.part-url }}/blob/master/README.md">this project's README</a>.
+        <p class="description-section__description">This website and its content is hosted on <a href="https://github.com/">GitHub</a>.If you have any comments about it, you can use GitHub's issues of <a href="https://github.com/silvuss/{{ site.part-url }}">the project</a> that stores all the content displayed here.</p>
+        <p class="description-section__description">For any further details, see <a href="https://github.com/silvuss/{{ site.part-url }}/blob/master/README.md">this project's README</a>.
         </p>
     </section>
     <section class="articles-section">
         <ul class="articles-section__list">
             {% for post in site.posts %}
             <li class="articles-section__list__article">
-                <a class="articles-section__list__article__link"
-                    href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%Y %B %d" }}
+                <a class="articles-section__list__article__link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%Y %B %d" }}
             </li>
             {% endfor %}
         </ul>
