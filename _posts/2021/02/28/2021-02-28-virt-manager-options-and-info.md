@@ -1685,48 +1685,48 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 ## Sources
 
-<a id="1">[1]</a> https://man.archlinux.org/man/virt-manager.1
+<span id="1">[1]</span> https://man.archlinux.org/man/virt-manager.1
 
-<a id="2">[2]</a> https://developer.gnome.org/gtk2/stable/gtk-running.html
+<span id="2">[2]</span> https://developer.gnome.org/gtk2/stable/gtk-running.html
 
-<a id="3">[3]</a> https://libvirt.org/uri.html
+<span id="3">[3]</span> https://libvirt.org/uri.html
 
-<a id="4">[4]</a> https://en.wikipedia.org/wiki/Hypervisor
+<span id="4">[4]</span> https://en.wikipedia.org/wiki/Hypervisor
 
-<a id="5">[5]</a> https://fedoraproject.org/wiki/How_to_debug_Virtualization_problems
+<span id="5">[5]</span> https://fedoraproject.org/wiki/How_to_debug_Virtualization_problems
 
-<a id="6">[6]</a> https://wiki.debian.org/libvirt/Debugging
+<span id="6">[6]</span> https://wiki.debian.org/libvirt/Debugging
 
-<a id="7">[7]</a> https://en.wikipedia.org/wiki/Virtual_Machine_Manager
+<span id="7">[7]</span> https://en.wikipedia.org/wiki/Virtual_Machine_Manager
 
-<a id="8">[8]</a> https://docs.oracle.com/cd/E26996_01/E18549/html/VMUSG1194.html
+<span id="8">[8]</span> https://docs.oracle.com/cd/E26996_01/E18549/html/VMUSG1194.html
 
-<a id="9">[9]</a> https://en.wikipedia.org/wiki/Virtual_Machine_Manager
+<span id="9">[9]</span> https://en.wikipedia.org/wiki/Virtual_Machine_Manager
 
-<a id="10">[10]</a> https://en.wikipedia.org/wiki/GTK
+<span id="10">[10]</span> https://en.wikipedia.org/wiki/GTK
 
-<a id="11">[11]</a> https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
+<span id="11">[11]</span> https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
 
-<a id="12">[12]</a> https://en.wikipedia.org/wiki/Virtual_machine
+<span id="12">[12]</span> https://en.wikipedia.org/wiki/Virtual_machine
 
-<a id="13">[13]</a> https://wiki.libvirt.org/page/SSHSetup
+<span id="13">[13]</span> https://wiki.libvirt.org/page/SSHSetup
 
-<a id="14">[14]</a> https://en.wikipedia.org/wiki/SSH_(Secure_Shell)
+<span id="14">[14]</span> https://en.wikipedia.org/wiki/SSH_(Secure_Shell)
 
-<a id="15">[15]</a> https://wiki.archlinux.org/index.php/QEMU
+<span id="15">[15]</span> https://wiki.archlinux.org/index.php/QEMU
 
-<a id="16">[16]</a> https://qemu-project.gitlab.io/qemu/user/index.html
+<span id="16">[16]</span> https://qemu-project.gitlab.io/qemu/user/index.html
 
-<a id="17">[17]</a> https://wiki.qemu.org/Documentation/Networking
+<span id="17">[17]</span> https://wiki.qemu.org/Documentation/Networking
 
-<a id="18">[18]</a> https://en.wikipedia.org/wiki/QEMU
+<span id="18">[18]</span> https://en.wikipedia.org/wiki/QEMU
 
-<a id="19">[19]</a> https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine
+<span id="19">[19]</span> https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine
 
-<a id="20">[20]</a> https://en.wikipedia.org/wiki/Xen
+<span id="20">[20]</span> https://en.wikipedia.org/wiki/Xen
 
-<a id="21">[21]</a> https://blog.wikichoon.com/2016/01/qemusystem-vs-qemusession.html
+<span id="21">[21]</span> https://blog.wikichoon.com/2016/01/qemusystem-vs-qemusession.html
 
-<a id="22">[22]</a> https://en.wikipedia.org/wiki/Libvirt
+<span id="22">[22]</span> https://en.wikipedia.org/wiki/Libvirt
 
-<a id="23">[23]</a> https://en.wikipedia.org/wiki/LXC
+<span id="23">[23]</span> https://en.wikipedia.org/wiki/LXC
