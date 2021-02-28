@@ -51,9 +51,9 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 ### The main window of Virtual Machine Manager
 
-- The main menu
+- **The main menu**
 
-    - The menu "File"
+    - **The menu "File"**
 
         (1) The option "Add connection..." – opens the window "Add Connection". This window most probably facilitates adding a connection to a hypervisor (?) (note that, for example, libvirt's documentation mentions in [[3]](#3) that a "connection" may refer to a "driver"). For options available within this window, see below.
 
@@ -63,7 +63,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (4) The option "Quit" – quits Virtual Machine Manager; it closes all Virtual Machine Manager's windows, also particular virtual machines' ones (note: it **does not** stop virtual machines).
 
-    - The menu "Edit"
+    - **The menu "Edit"**
 
         (5) The option "Connection Details" – TODO
 
@@ -73,9 +73,9 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (8) The option "Preferences" – TODO
 
-    - The menu "View"
+    - **The menu "View"**
 
-        - The menu "Graph"
+        - **The menu "Graph"**
 
             (9) The option "Guest CPU Usage" – TODO
 
@@ -87,11 +87,11 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (13) The option "Network I/O" – TODO
 
-    - The menu "Help"
+    - **The menu "Help"**
 
         (14) The option "About" – TODO
 
-- The toolbar
+- **The toolbar**
 
     (15) The button "Create a new virtual machine" – TODO
 
@@ -105,7 +105,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
     (20) The second button "Shut down the virtual machine" – TODO
 
-    - The menu "Shut down the virtual machine"
+    - **The menu "Shut down the virtual machine"**
 
         (21) The option "Reboot" – TODO
 
@@ -117,7 +117,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (25) The option "Save" – TODO
 
-- The pane with the list of hypervisors and virtual machines
+- **The pane with the list of hypervisors and virtual machines**
 
     (26) The column "Name" – TODO
 
@@ -131,7 +131,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
     (31) The column "Network I/O" – TODO
 
-    - The context menu available right-clicking the bar with the name of a connection
+    - **The context menu available right-clicking the bar with the name of a connection**
 
         (32) The option "New" – TODO
 
@@ -161,7 +161,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 (44) The option "Custom URI" – allows to specify a custom URI for the connection.
 
-- The drop-down menu "Hypervisor"
+- **The drop-down menu "Hypervisor"**
 
     (45) The option "QEMU/KVM" – allows to specify that the hypervisor to connect to is a "QEMU/KVM" hypervisor (?); I am not sure whether the character string "QEMU/KVM" should be treated as one "hypervisor" or not. Selecting this value in the drop-down menu "Hypervisor" generates the URI `qemu:///system`; for the difference between the URIs `qemu:///session` and the URI `qemu:///system`, see [[21]](#21).
 
@@ -173,7 +173,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
     (49) The option "Custom URI..." – allows to specify a custom URI for the connection.
 
-- The options of the option "Connect to remote host over SSH"
+- **The options of the option "Connect to remote host over SSH"**
 
     (50) The option "Username" – most probably allows to specify the username for connecting over the SSH protocol.
 
@@ -189,13 +189,13 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 (55) The button "Finish" – TODO
 
-- The pane "Step 1 of 5"
+- **The pane "Step 1 of 5"**
 
     (56) The information "Connection" – TODO
 
     (57) The option "Choose how would you like to install the operating system" – TODO
 
-- The pane "Step 2 of 5"
+- **The pane "Step 2 of 5"**
 
     (58) The option "Choose ISO or CDROM install media" – TODO
 
@@ -205,31 +205,31 @@ These menus, toolbars, windows, options and pieces of information are available 
 
     (61) The option "Automatically detect from the installation media / source" – TODO
 
-- The pane "Step 3 of 5"
+- **The pane "Step 3 of 5"**
 
     (62) The option "Choose Memory and CPU settings" – TODO
 
-    - The options in the option "Choose Memory and CPU settings"
+    - **The options in the option "Choose Memory and CPU settings"**
 
         (63) The option "Memory" – TODO
 
         (64) The option "CPUs" – TODO
 
-- The pane "Step 4 of 5"
+- **The pane "Step 4 of 5"**
 
     (65) The option "Enable storage for this virtual machine" – TODO
 
-    - The options of the option "Enable storage for this virtual machine"
+    - **The options of the option "Enable storage for this virtual machine"**
 
         (66) The option "Create a disk image for the virtual machine" – TODO
 
         (67) The option "Select or create custom storage" – TODO
 
-        - The options of the option "Select or create custom storage"
+        - **The options of the option "Select or create custom storage"**
 
             (68) The button "Manage..." – TODO
 
-- The pane "Step 5 of 5"
+- **The pane "Step 5 of 5"**
 
     (69) The information "Name" – TODO
 
@@ -255,7 +255,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 (79) The button "Choose Volume" – TODO
 
-- The storage pool pane
+- **The storage pool pane**
 
     (80) The storage pool list – TODO
 
@@ -267,13 +267,13 @@ These menus, toolbars, windows, options and pieces of information are available 
 
     (84) The button "Delete Pool" – TODO
 
-- The tab "Details"
+- **The tab "Details"**
 
     (85) The information "Size" – TODO
 
     (86) The information "Location" – TODO
 
-    - The pane "Volumes"
+    - **The pane "Volumes"**
 
         (87) The button "Create new volume" – TODO
 
@@ -281,7 +281,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (89) The button "Delete volume" – TODO
 
-        - The volume list
+        - **The volume list**
 
             (90) The column "Volumes" – TODO
 
@@ -289,7 +289,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (92) The column "Format" – TODO
 
-- The tab "XML"
+- **The tab "XML"**
 
     (93) The warning "XML editing..." – TODO
 
@@ -297,9 +297,9 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 ### The window "Connection Details" (the main window of Virtual Machine Manager > the main menu > "Edit" > "Connection Details")
 
-- The main menu
+- **The main menu**
 
-    - The menu "File"
+    - **The menu "File"**
 
         (95) The option "View Manager" – TODO
 
@@ -307,9 +307,9 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (97) The option "Quit" – TODO
 
-- The tab "Overview"
+- **The tab "Overview"**
 
-    - The section "Basic details"
+    - **The section "Basic details"**
 
         (98) The option "Name" – TODO
 
@@ -317,17 +317,17 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (100) The option "Autoconnect" – allows to specify whether the connection should be established automatically when Virtual Machine Manager starts. Option 39 may be related.
 
-    - The section "CPU usage"
+    - **The section "CPU usage"**
 
         (101) The CPU usage graph – TODO
 
-    - The section "Memory usage"
+    - **The section "Memory usage"**
 
         (102) The memory usage graph – TODO
 
-- The tab "Virtual Networks"
+- **The tab "Virtual Networks"**
 
-    - The pane with the list of networks
+    - **The pane with the list of networks**
 
         (103) The list of networks – TODO
 
@@ -339,7 +339,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (107) The button "Delete Network" – TODO
 
-    - The tab "Details"
+    - **The tab "Details"**
 
         (108) The information "Name" – TODO
 
@@ -349,7 +349,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (111) The information "Autostart" – TODO
 
-        - The section "IPv4 configuration"
+        - **The section "IPv4 configuration"**
 
             (112) The information "Network" – TODO
 
@@ -357,13 +357,13 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (114) The information "Forwarding" – TODO
 
-    - The tab "XML"
+    - **The tab "XML"**
 
         (115) The warning "XML editing" – TODO
 
         (116) The field with the XML document – TODO
 
-- The tab "Storage"
+- **The tab "Storage"**
 
     (See the description of the window "Locate ISO media volume".)
 
@@ -373,7 +373,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 (118) The button "Finish" – TODO
 
-- The tab "Details
+- **The tab "Details**
 
     (119) The option "Name" – TODO
 
@@ -391,7 +391,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
     (126) The option "DNS domain name" – TODO
 
-    - The options of the option "Mode"
+    - **The options of the option "Mode"**
 
         (127) The option "NAT" – TODO
 
@@ -403,51 +403,51 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (131) The option "SR-IOV pool" – TODO
 
-    - The options of the option "Forward to"
+    - **The options of the option "Forward to"**
 
         (132) The option "Any physical device" – TODO
 
         (133) The option "Physical device" – TODO
 
-    - The options of the option "IPv4 configuration"
+    - **The options of the option "IPv4 configuration"**
 
         (134) The option "Enable IPv4" – TODO
 
-        - The options of the option "Enable IPv4"
+        - **The options of the option "Enable IPv4"**
 
             (135) The option "Network" – TODO
 
             (136) The option "Enable DHCPv4" – TODO
 
-            - The options of the option "Enable DHCPv4"
+            - **The options of the option "Enable DHCPv4"**
 
                 (137) The option "Start" – TODO
 
                 (138) The option "End" – TODO
 
-    - The options of the option "IPv6 configuration"
+    - **The options of the option "IPv6 configuration"**
 
         (139) The option "Enable IPv6" – TODO
 
-        - The options of the option "Enable IPv6"
+        - **The options of the option "Enable IPv6"**
 
             (140) The option "Network" – TODO
 
             (141) The option "Enable DHCPv6" – TODO
 
-            - The options of the option "Enable DHCPv6"
+            - **The options of the option "Enable DHCPv6"**
 
                 (142) The option "Start" – TODO
 
                 (143) The option "End" – TODO
 
-    - The options of the option "DNS domain name"
+    - **The options of the option "DNS domain name"**
 
         (144) The option "Use network name" – TODO
 
         (145) The option "Custom" – TODO
 
-- The tab "XML"
+- **The tab "XML"**
 
     (146) The warning "XML editing..." – TODO
 
@@ -455,9 +455,9 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 ### The virtual machine window (the main window of Virtual Machine Manager > the main menu > "Edit" > "Virtual Machine Details")
 
-- The main menu
+- **The main menu**
 
-    - The menu "File"
+    - **The menu "File"**
 
         (148) The option "View Manager" – TODO
 
@@ -465,7 +465,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (150) The option "Quit" – TODO
 
-    - The menu "Virtual Machine"
+    - **The menu "Virtual Machine"**
 
         (151) The option "Run" – TODO
 
@@ -481,11 +481,11 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (157) The option "Redirect USB device" – TODO
 
-        - The menu "Shut Down"
+        - **The menu "Shut Down"**
 
             (See the description of the menu "Shut down the virtual machine" in the toolbar of the main window of the Virtual Machine Manager.)
 
-    - The menu "View"
+    - **The menu "View"**
 
         (158) The option "Console" – TODO
 
@@ -501,7 +501,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (164) The option "Toolbar" – TODO
 
-        - The menu "Scale Display"
+        - **The menu "Scale Display"**
 
             (165) The option "Always" – TODO
 
@@ -511,13 +511,13 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (168) The option "Auto resize VM with window" – TODO
 
-        - The menu "Consoles"
+        - **The menu "Consoles"**
 
             (169) The option "Graphical Console Spice" – TODO
 
             (170) The option "Serial 1" – TODO
 
-    - The menu "Send Key"
+    - **The menu "Send Key"**
 
         (171) The option "Ctrl+Alt+Backspace" – TODO
 
@@ -549,7 +549,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (185) The option "Print" – TODO
 
-- The toolbar
+- **The toolbar**
 
     (186) The button "Show the graphical console" – TODO
 
@@ -565,11 +565,11 @@ These menus, toolbars, windows, options and pieces of information are available 
 
     (192) The button "Manage VM snapshots" – TODO
 
-- The graphical console pane
+- **The graphical console pane**
 
     TODO
 
-- The virtual hardware details pane
+- **The virtual hardware details pane**
 
     (193) The button "Remove" – TODO
 
@@ -577,7 +577,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
     (195) The button "Apply" – TODO
 
-    - The pane with the hardware list
+    - **The pane with the hardware list**
 
         (196) The position "Overview" – TODO
 
@@ -623,15 +623,15 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (217) The button "Add Hardware" – TODO
 
-        - The context menu available right-clicking a position on the list
+        - **The context menu available right-clicking a position on the list**
 
             (218) The option "Add Hardware" – TODO
 
             (219) The option "Remove Hardware" – TODO
 
-        - The options and information of the position "Overview"
+        - **The options and information of the position "Overview"**
 
-            - The section "Basic Details"
+            - **The section "Basic Details"**
 
                 (220) The option "Name" – TODO
 
@@ -643,7 +643,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                 (224) The option "Description" – TODO
 
-            - The section "Hyperviso Details"
+            - **The section "Hyperviso Details"**
 
                 (225) The information "Hypervisor" – TODO
 
@@ -655,11 +655,11 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                 (229) The information "Firmware" – TODO
 
-        - The options and information of the position "OS information"
+        - **The options and information of the position "OS information"**
 
             (230) The option "Operating system" – TODO
 
-        - The options and information of the position "Performance"
+        - **The options and information of the position "Performance"**
 
             (231) The graph "CPU usage" – TODO
 
@@ -669,15 +669,15 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (234) The graph "Network I/O" – TODO
 
-        - The options and information of the position "CPUs"
+        - **The options and information of the position "CPUs"**
 
-            - The section "CPUs"
+            - **The section "CPUs"**
 
                 (235) The information "Logical host CPUs" – TODO
 
                 (236) The option "vCPU allocation" – TODO
 
-            - The section "Configuration"
+            - **The section "Configuration"**
 
                 (237) The option "Copy host CPU configuration" – TODO
 
@@ -685,11 +685,11 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                 (239) The option "Enable available CPU security flaw mitigations" – TODO
 
-            - The section "Topology"
+            - **The section "Topology"**
 
                 (240) The option "Manually set CPU topology" – TODO
 
-                - The options of the option "Manually set CPU topology"
+                - **The options of the option "Manually set CPU topology"**
 
                     (241) The option "Sockets" – TODO
 
@@ -697,9 +697,9 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                     (243) The option "Threads" – TODO
 
-        - The options and information of the position "Memory"
+        - **The options and information of the position "Memory"**
 
-            - The section "Memory"
+            - **The section "Memory"**
 
                 (244) The information "Total host memory" – TODO
 
@@ -707,13 +707,13 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                 (246) The option "Maximum allocation" – TODO
 
-        - The options and information of the position "Boot Options"
+        - **The options and information of the position "Boot Options"**
 
-            - The section "Autostart"
+            - **The section "Autostart"**
 
                 (247) The option "Start virtual machine on host boot up" – TODO
 
-            - The section "Boot device order"
+            - **The section "Boot device order"**
 
                 (248) The option "Enable boot menu" – TODO
 
@@ -723,11 +723,11 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                 (251) The button with a down arrow – TODO
 
-            - The section "Direct kernel boot"
+            - **The section "Direct kernel boot"**
 
                 (252) The option "Enable direct kernel boot" – TODO
 
-                - The options of the option "Enable direct kernel boot"
+                - **The options of the option "Enable direct kernel boot"**
 
                     (253) The option "Kernel path" – TODO
 
@@ -735,21 +735,21 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                     (255) The option "Kernel args" – TODO
 
-                    - The options of the option "Kernel path"
+                    - **The options of the option "Kernel path"**
 
                         (256) The text field – TODO
 
                         (257) The button "Browse" – TODO
 
-                    - The options of the option "Initrd path"
+                    - **The options of the option "Initrd path"**
 
                         (258) The text field – TODO
 
                         (259) The button "Browse" – TODO
 
-        - The options and information of the position "SATA CDROM `<number>`"
+        - **The options and information of the position "SATA CDROM `<number>`"**
 
-            - The section "Virtual Disk"
+            - **The section "Virtual Disk"**
 
                 (260) The option "Source path" – TODO
 
@@ -759,13 +759,13 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                 (263) The information "Storage size" – TODO
 
-                - The options of the option "Source path"
+                - **The options of the option "Source path"**
 
                     (264) The drop-down menu – TODO
 
                     (265) The button "Browse" – TODO
 
-                - The section "Advanced options"
+                - **The section "Advanced options"**
 
                     (266) The option "Readonly" – TODO
 
@@ -779,9 +779,9 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                     (271) The option "Detect zeroes" – (see the option 356.)
 
-        - The options and information of the position "NIC `<address>`"
+        - **The options and information of the position "NIC `<address>`"**
 
-            - The section "Virtual Network Interface"
+            - **The section "Virtual Network Interface"**
 
                 (272) The option "Network source" – TODO
 
@@ -793,7 +793,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                 (276) The option "Link state" – TODO
 
-                - The options of the option "Network source"
+                - **The options of the option "Network source"**
 
                     (277) The option "Virtual network 'default' : NAT" – TODO
 
@@ -801,49 +801,49 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                     (279) The option "Macvtap device..." – TODO
 
-                    - The options of the option "Bridge device"
+                    - **The options of the option "Bridge device"**
 
                         (280) The option "Device name" – TODO
 
-                    - The options and information of the option "Macvtap device"
+                    - **The options and information of the option "Macvtap device"**
 
                         (281) The option "Device name" – TODO
 
                         (282) The warning "In most configurations..." – TODO
 
-                - The options of the information "IP address"
+                - **The options of the information "IP address"**
 
                     (283) The button with a loopy arrow – TODO
 
-                - The options of the option "Link state"
+                - **The options of the option "Link state"**
 
                     (284) The option "active" – TODO
 
-        - The options and information of the position "Tablet"
+        - **The options and information of the position "Tablet"**
 
-            - The section "Virtual Input Device"
+            - **The section "Virtual Input Device"**
 
                 (285) The information "Type" – TODO
 
                 (286) The information "Mode" – TODO
 
-        - The options and information of the position "Mouse"
+        - **The options and information of the position "Mouse"**
 
-            - The section "Virtual Input Device"
+            - **The section "Virtual Input Device"**
 
                 (287) The information "Type" – TODO
 
                 (288) The information "Mode" – TODO
 
-        - The options and information of the position "Keyboard"
+        - **The options and information of the position "Keyboard"**
 
-            - The section "Virtual Input Device"
+            - **The section "Virtual Input Device"**
 
                 (289) The information "Type" – TODO
 
-        - The options and information of the position "Display `<type>`"
+        - **The options and information of the position "Display `<type>`"**
 
-            - The section "`<type>` Server"
+            - **The section "`<type>` Server"**
 
                 (290) The option "Type" – TODO. For options of this option, see the option 400.
 
@@ -857,21 +857,21 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                 (295) The option "OpenGL" – TODO. For options of this option, see the option 405.
 
-        - The options of the position "Sound `<model>`"
+        - **The options of the position "Sound `<model>`"**
 
-            - The section "Sound Device"
+            - **The section "Sound Device"**
 
                 (296) The option "Model" – TODO. For options of this option, see the option 423.
 
-        - The options and information of the position "Serial `<number>`"
+        - **The options and information of the position "Serial `<number>`"**
 
-            - The section "Serial Device `<number>` (Primary Console)"
+            - **The section "Serial Device `<number>` (Primary Console)"**
 
                 (297) The information "Device type" – TODO
 
-        - The options and information of the position "Channel `<?>`"
+        - **The options and information of the position "Channel `<?>`"**
 
-            - The section "Channel Device"
+            - **The section "Channel Device"**
 
                 (298) The information "Device type" – TODO
 
@@ -879,59 +879,59 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                 (300) The information "Target name" – TODO
 
-        - The options and information of the position "Video `<model>`"
+        - **The options and information of the position "Video `<model>`"**
 
-            - The section "Video"
+            - **The section "Video"**
 
                 (301) The option "Model" – TODO. For options of this option, see the option 457.
 
                 (302) The option "3D acceleration" – TODO
 
-        - The options and information of the position "Controller USB 0"
+        - **The options and information of the position "Controller USB 0"**
 
-            - The section "Controller"
+            - **The section "Controller"**
 
                 (303) The information "Type" – TODO
 
                 (304) The option "Model" – (see the option 374 (?).)
 
-        - The options and information of the position "Controller SATA 0"
+        - **The options and information of the position "Controller SATA 0"**
 
-            - The section "Controller"
+            - **The section "Controller"**
 
                 (305) The information "Type" – TODO
 
                 (306) The information "Devices" – TODO
 
-        - The options and information of the position "Controller PCIe 0"
+        - **The options and information of the position "Controller PCIe 0"**
 
-            - The section "Controller"
+            - **The section "Controller"**
 
                 (307) The information "Type" – TODO
 
-        - The options and information of the position "Controller VirtIO Serial 0"
+        - **The options and information of the position "Controller VirtIO Serial 0"**
 
-            - The section "Controller"
+            - **The section "Controller"**
 
                 (308) The information "Type" – TODO
 
-        - The options and information of the position "USB Redirector `<number>`"
+        - **The options and information of the position "USB Redirector `<number>`"**
 
             (309) The information "Type" – TODO
 
-        - The options and information of the position "RNG `<device>`"
+        - **The options and information of the position "RNG `<device>`"**
 
-            - The section "Random Number Generator"
+            - **The section "Random Number Generator"**
 
                 (310) The information "Type" – TODO
 
                 (311) The information "Host Device" – TODO
 
-    - The tab "Details
+    - **The tab "Details**
 
         TODO
 
-    - The tab "XML"
+    - **The tab "XML"**
 
         TODO
 
@@ -941,7 +941,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 (313) The button "Finish" – TODO
 
-- The hardware list
+- **The hardware list**
 
     (314) The position "Storage" – TODO
 
@@ -985,7 +985,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
     (334) The position "VirtIO VSOCK" – TODO
 
-    - The options and information of the position "Storage"
+    - **The options and information of the position "Storage"**
 
         (335) The option "Create a disk image for the virtual machine" – TODO
 
@@ -995,19 +995,19 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (338) The option "Bus type" – TODO
 
-        - The options and information of the option "Create a disk image for the virtual machine"
+        - **The options and information of the option "Create a disk image for the virtual machine"**
 
             (339) The "GiB" field – TODO
 
             (340) The information about storage available – TODO
 
-        - The options of the option "Select or create a custom storage"
+        - **The options of the option "Select or create a custom storage"**
 
             (341) The button "Manage..." – TODO
 
             (342) The text field – TODO
 
-        - The options of the option "Device type"
+        - **The options of the option "Device type"**
 
             (343) The option "Disk device" – TODO
 
@@ -1017,7 +1017,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (346) The option "LUN Passthrough" – TODO
 
-        - The options of the option "Bus type"
+        - **The options of the option "Bus type"**
 
             (347) The option "SATA" – TODO
 
@@ -1027,7 +1027,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (350) The option "VirtIO" – TODO
 
-        - The section "Advanced options"
+        - **The section "Advanced options"**
 
             (351) The option "Readonly" – TODO
 
@@ -1041,7 +1041,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (356) The option "Detect zeroes" – TODO. See also the option 271.
 
-            - The options of the option "Cache mode"
+            - **The options of the option "Cache mode"**
 
                 (357) The option "Hypervisor default" – TODO
 
@@ -1055,7 +1055,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                 (362) The option "unsafe" – TODO
 
-            - The options of the option "Discard mode"
+            - **The options of the option "Discard mode"**
 
                 (363) The option "Hypervisor default" – TODO
 
@@ -1063,7 +1063,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                 (365) The option "unmap" – TODO
 
-            - The options of the option "Detect zeroes"
+            - **The options of the option "Detect zeroes"**
 
                 (366) The option "Hypervisor default" – TODO
 
@@ -1073,13 +1073,13 @@ These menus, toolbars, windows, options and pieces of information are available 
 
                 (369) The option "unmap" – TODO
 
-    - The options and information of the position "Controller"
+    - **The options and information of the position "Controller"**
 
         (370) The option "Type" – TODO
 
         (371) The option "Model" — TODO
 
-        - The options of the option "Type"
+        - **The options of the option "Type"**
 
             (372) The option "CCID" – TODO
 
@@ -1089,7 +1089,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (375) The option "VirtIO Serial" – TODO
 
-        - The options of the option "Model"
+        - **The options of the option "Model"**
 
             (376) The option "Hypervisor default" – TODO
 
@@ -1101,7 +1101,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (380) The option "USB 3" – TODO
 
-    - The options and information of the position "Network"
+    - **The options and information of the position "Network"**
 
         (381) The option "Network resource" – TODO
 
@@ -1109,7 +1109,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (383) The option "Device model" – TODO. See also the option 273.
 
-        - The options of the option "Network resource"
+        - **The options of the option "Network resource"**
 
             (384) The option "Virtual network 'default': NAT" – TODO
 
@@ -1117,21 +1117,21 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (386) The option "Macvtap device..." – TODO
 
-            - The options of the option "Bridge device"
+            - **The options of the option "Bridge device"**
 
                 (387) The option "Device name" – TODO
 
-            - The information of the option "Macvtap device..."
+            - **The information of the option "Macvtap device..."**
 
                 (388) The warning "In most configurations..." – TODO
 
-        - The options of the option "MAC address"
+        - **The options of the option "MAC address"**
 
             (389) The checkbox – TODO
 
             (390) The text field – TODO
 
-        - The options of the option "Device model"
+        - **The options of the option "Device model"**
 
             (391) The option "e1000e" – TODO
 
@@ -1139,11 +1139,11 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (393) The option "virtio" – TODO
 
-    - The options and information of the position "Input"
+    - **The options and information of the position "Input"**
 
         (394) The option "Type" – TODO
 
-        - The options of the option "Type"
+        - **The options of the option "Type"**
 
             (395) The option "EvTouch USB Graphics Tablet" – TODO
 
@@ -1155,7 +1155,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (399) The option "VirtIO Tablet" – TODO
 
-    - The options and information of the position "Graphics"
+    - **The options and information of the position "Graphics"**
 
         (400) The option "Type" – TODO. See also the option 290.
 
@@ -1169,19 +1169,19 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (405) The option "OpenGL" – TODO. See also the option 295.
 
-        - The options of the option "Type"
+        - **The options of the option "Type"**
 
             (406) The option "Spice server" – TODO
 
             (407) The option "VNC server" – TODO
 
-        - The options of the option "Listen type"
+        - **The options of the option "Listen type"**
 
             (408) The option "Address" – TODO
 
             (409) The option "None" – TODO
 
-        - The options of the option "Address"
+        - **The options of the option "Address"**
 
             (410) The option "Hypervisor default" – TODO
 
@@ -1189,13 +1189,13 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (412) The option "All interfaces" – TODO
 
-        - The options of the option "Port"
+        - **The options of the option "Port"**
 
             (413) The option "Auto" – TODO
 
             (414) The text field – TODO
 
-        - The options of the option "Password"
+        - **The options of the option "Password"**
 
             (415) The checkbox – TODO
 
@@ -1203,7 +1203,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (417) The option "Show password" – TODO
 
-        - The options and information of the option "OpenGL"
+        - **The options and information of the option "OpenGL"**
 
             (418) The drop-down menu – TODO
 
@@ -1211,17 +1211,17 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (420) The warning "OpenGL only works with 'Listen type'..." – TODO
 
-            - The options of the drop-down menu of the option "OpenGL"
+            - **The options of the drop-down menu of the option "OpenGL"**
 
                 (421) The option "Auto" – TODO
 
                 (422) Options with ? – TODO
 
-    - The options and information of the position "Sound"
+    - **The options and information of the position "Sound"**
 
         (423) The option "Model" – TODO. See also the option 296.
 
-        - The options of the option "Model"
+        - **The options of the option "Model"**
 
             (424) The option "HDA (ICH6)" – TODO
 
@@ -1229,13 +1229,13 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (426) The option "AC97" – TODO
 
-    - The options and information of the position "Serial"
+    - **The options and information of the position "Serial"**
 
         (427) The option "Device type" – TODO
 
         (428) The option "Path" – TODO
 
-        - The options of the option "Device type"
+        - **The options of the option "Device type"**
 
             (429) The option "Output to a file (file)" – TODO
 
@@ -1243,13 +1243,13 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (431) The option "UNIX socket (unix)" – TODO
 
-    - The options and information of the position "Parallel"
+    - **The options and information of the position "Parallel"**
 
         (432) The option "Device type" – TODO
 
         (433) The option "Path" – TODO
 
-        - The options of the option "Device type"
+        - **The options of the option "Device type"**
 
             (434) The option "Output to a file (file)" – TODO
 
@@ -1257,21 +1257,21 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (436) The option "UNIX socket (unix)" – TODO
 
-    - The options and information of the position "Console"
+    - **The options and information of the position "Console"**
 
         (437) The option "Device type" – TODO
 
         (438) The option "Type" – TODO
 
-        - The options of the option "Device type"
+        - **The options of the option "Device type"**
 
             (439) The option "Pseudo TTY (pty)" – TODO
 
-        - The options of the option "Type"
+        - **The options of the option "Type"**
 
             (440) The option "VirtIO" – TODO
 
-    - The options and information of the position "Channel"
+    - **The options and information of the position "Channel"**
 
         (441) The option "Name" – TODO
 
@@ -1283,7 +1283,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (445) The option "Auto socket" – TODO
 
-        - The options of the option "Name"
+        - **The options of the option "Name"**
 
             (446) The option "com.redhat.spice.0" – TODO
 
@@ -1293,7 +1293,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (449) The option "org.spice-space.webdav.0" – TODO
 
-        - The options of the option "Device type"
+        - **The options of the option "Device type"**
 
             (450) The option "Output to a file (file)" – TODO
 
@@ -1305,19 +1305,19 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (454) The option "UNIX socket (unix)" – TODO
 
-    - The options and information of the position "USB Host Device"
+    - **The options and information of the position "USB Host Device"**
 
         (455) The option "Host device" – TODO
 
-    - The options and information of the position "PCI Host Device"
+    - **The options and information of the position "PCI Host Device"**
 
         (456) The option "Host device" – TODO
 
-    - The options and information of the position "Video"
+    - **The options and information of the position "Video"**
 
         (457) The option "Model" – TODO. See also the option 301.
 
-        - The options of the option "Model"
+        - **The options of the option "Model"**
 
             (458) The option "Bochs" – TODO
 
@@ -1329,13 +1329,13 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (462) The option "Virtio" – TODO
 
-    - The options and information of the position "Watchdog"
+    - **The options and information of the position "Watchdog"**
 
         (463) The option "Model" – TODO
 
         (464) The option "Action" – TODO
 
-        - The options of the option "Model"
+        - **The options of the option "Model"**
 
             (465) The option "DIAG288" – TODO
 
@@ -1343,7 +1343,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (467) The option "IB700" – TODO
 
-        - The options of the option "Action"
+        - **The options of the option "Action"**
 
             (468) The option "Dump guest memory core" – TODO
 
@@ -1357,7 +1357,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (473) The option "Pause the guest" – TODO
 
-    - The options and information of the position "Filesystem"
+    - **The options and information of the position "Filesystem"**
 
         (474) The option "Type" – TODO
 
@@ -1369,11 +1369,11 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (478) The option "Export filesystem as readonly mount" – TODO
 
-        - The options of the option "Type"
+        - **The options of the option "Type"**
 
             (479) The option "mount" – TODO
 
-        - The options of the option "Mode"
+        - **The options of the option "Mode"**
 
             (480) The option "mapped" – TODO
 
@@ -1381,31 +1381,31 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (482) The option "Hypervisor default" – TODO
 
-        - The options of the option "Source path"
+        - **The options of the option "Source path"**
 
             (483) The text field – TODO
 
             (484) The button "Browse..." – TODO
 
-    - The options and information of the position "Smartcard"
+    - **The options and information of the position "Smartcard"**
 
         (485) The option "Mode" – TODO
 
-        - The options of the option "Mode"
+        - **The options of the option "Mode"**
 
             (486) "Host" – TODO
 
             (487) "Passthrough" – TODO
 
-    - The options and information of the position "USB Redirection"
+    - **The options and information of the position "USB Redirection"**
 
         (488) The option "Type" – TODO
 
-        - The options of the option "Type"
+        - **The options of the option "Type"**
 
             (489) The option "Spice channel" – TODO
 
-    - The options and information of the position "TPM"
+    - **The options and information of the position "TPM"**
 
         (490) The option "Model" – TODO
 
@@ -1415,43 +1415,43 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (493) The option "Device Path" – TODO
 
-        - The options of the option "Model"
+        - **The options of the option "Model"**
 
             (494) The option "CRB" – TODO
 
             (495) The option "TIS" – TODO
 
-        - The options of the option "Backend"
+        - **The options of the option "Backend"**
 
             (496) The option "Emulated device" – TODO
 
             (497) The option "Passthrough device" – TODO
 
-        - The options of the option "Version"
+        - **The options of the option "Version"**
 
             (498) The option "1.2" – TODO
 
             (499) The option "2.0" – TODO
 
-    - The options and information of the position "RNG"
+    - **The options and information of the position "RNG"**
 
         (500) The option "Host Device" – TODO
 
-    - The options and information of the position "Panic Notifier"
+    - **The options and information of the position "Panic Notifier"**
 
         (501) The option "Model" – TODO
 
-        - The options of the option "Model"
+        - **The options of the option "Model"**
 
             (502) The option "Hyper-V" – TODO
 
             (503) The option "ISA" – TODO
 
-    - The options and information of the position "VirtIO VSOCK"
+    - **The options and information of the position "VirtIO VSOCK"**
 
         (504) The option "Guest CID" – TODO
 
-        - The options of the option "Guest CID"
+        - **The options of the option "Guest CID"**
 
             (505) The option "Auto" – TODO
 
@@ -1471,11 +1471,11 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 (512) The button "Clone" – TODO
 
-- The options of the option "Storage"
+- **The options of the option "Storage"**
 
     (513) The button "Details..." – TODO
 
-    - The list of storages (?)
+    - **The list of storages (?)**
 
         (514) The column "Clone" – TODO
 
@@ -1491,7 +1491,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 (519) The option "Create a new disk (clone) for the virtual machine" – TODO
 
-- The options of the option "Create a new disk (clone) for the virtual machine"
+- **The options of the option "Create a new disk (clone) for the virtual machine"**
 
     (520) The option "New Path" – TODO
 
@@ -1503,7 +1503,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 (523) The button "Migrate" – TODO
 
-- The tab "Details"
+- **The tab "Details"**
 
     (524) The information "Migrating VM" – TODO
 
@@ -1511,13 +1511,13 @@ These menus, toolbars, windows, options and pieces of information are available 
 
     (526) The option "New host" – TODO
 
-    - The options of the option "New host"
+    - **The options of the option "New host"**
 
         (527) The option "No usable connection available." – TODO
 
         (528) The option "QEMU/KVM (Same connection)" – TODO
 
-- The tab "XML"
+- **The tab "XML"**
 
     (529) The warning "XML editing..." – TODO
 
@@ -1533,9 +1533,9 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 (534) The button "Delete" – TODO
 
-- The options of the option "Delete associated storage files"
+- **The options of the option "Delete associated storage files"**
 
-    - The pane with the list of storage files associated with the virtual machine
+    - **The pane with the list of storage files associated with the virtual machine**
 
         (535) The first column (with no name) – TODO
 
@@ -1547,9 +1547,9 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 (538) The button "Close" – TODO
 
-- The tab "General"
+- **The tab "General"**
 
-    - The section "General"
+    - **The section "General"**
 
         (539) The option "Enable system tray icon" – TODO
 
@@ -1557,9 +1557,9 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (541) The option "Enable libguestfs VM introspection" – TODO
 
-- The tab "Polling"
+- **The tab "Polling"**
 
-    - The section "Stats Options"
+    - **The section "Stats Options"**
 
         (542) The option "Update status every ... seconds" – TODO
 
@@ -1571,9 +1571,9 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (546) The option "Poll memory stats" – TODO
 
-- The tab "New VM"
+- **The tab "New VM"**
 
-    - The section "New VM Defaults"
+    - **The section "New VM Defaults"**
 
         (547) The option "Graphics type" – TODO
 
@@ -1581,7 +1581,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (549) The option "CPU default" – TODO
 
-        - The options of the option "Grapics type"
+        - **The options of the option "Grapics type"**
 
             (550) The option "System default (spice)" – TODO
 
@@ -1589,7 +1589,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (552) The option "Spice" – TODO
 
-        - The options of the option "Storage format"
+        - **The options of the option "Storage format"**
 
             (553) The option "System default (qcow2)" – TODO
 
@@ -1597,7 +1597,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (555) The option "QCOW2" – TODO
 
-        - The options of the option "CPU default" – TODO
+        - **The options of the option "CPU default" – TODO**
 
             (556) The option "Application default" – TODO
 
@@ -1609,9 +1609,9 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (560) The option "host-passthrough" – TODO
 
-- The tab "Console"
+- **The tab "Console"**
 
-    - The section "Graphical Consoles"
+    - **The section "Graphical Consoles"**
 
         (561) The option "Graphical console scaling" – TODO
 
@@ -1623,7 +1623,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
         (565) The option "Console autoconnect" – TODO
 
-        - The options of the option "Graphical console scaling"
+        - **The options of the option "Graphical console scaling"**
 
             (566) The option "Never" – TODO
 
@@ -1631,7 +1631,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (568) The option "Always" – TODO
 
-        - The options of the option "Resize guest with window"
+        - **The options of the option "Resize guest with window"**
 
             (569) The option "System default (Off)" – TODO
 
@@ -1639,19 +1639,19 @@ These menus, toolbars, windows, options and pieces of information are available 
 
             (571) The option "On" – TODO
 
-        - The options of the option "Grab keys"
+        - **The options of the option "Grab keys"**
 
             (572) The button "Change..." – TODO
 
-        - The options of the option "SPICE USB Redirection"
+        - **The options of the option "SPICE USB Redirection"**
 
             (573) The option "Manual redirect only" – TODO
 
             (574) The option "Auto redirect on USB attach" – TODO
 
-- The tab "Feedback"
+- **The tab "Feedback"**
 
-    - The section "Confirmations"
+    - **The section "Confirmations"**
 
         (575) The option "Force Poweroff" – TODO
 
@@ -1675,11 +1675,11 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 (583) The button "Credits" – TODO
 
-- The pane with general information
+- **The pane with general information**
 
     TODO
 
-- The pane with credits
+- **The pane with credits**
 
     TODO
 
