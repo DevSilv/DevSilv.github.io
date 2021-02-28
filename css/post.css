@@ -30,11 +30,6 @@ pre {
     width: max-content;
 }
 
-.post li {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
 .post__tags-list {
     list-style: none;
     text-align: center;
