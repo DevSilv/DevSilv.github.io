@@ -1278,26 +1278,26 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 ## Sources
 
-[1] https://man.archlinux.org/man/virt-manager.1
-[2] https://developer.gnome.org/gtk2/stable/gtk-running.html
-[3] https://libvirt.org/uri.html
-[4] https://en.wikipedia.org/wiki/Hypervisor
-[5] https://fedoraproject.org/wiki/How_to_debug_Virtualization_problems
-[6] https://wiki.debian.org/libvirt/Debugging
-[7] https://en.wikipedia.org/wiki/Virtual_Machine_Manager
-[8] https://docs.oracle.com/cd/E26996_01/E18549/html/VMUSG1194.html
-[9] https://en.wikipedia.org/wiki/Virtual_Machine_Manager
-[10] https://en.wikipedia.org/wiki/GTK
-[11] https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
-[12] https://en.wikipedia.org/wiki/Virtual_machine
-[13] https://wiki.libvirt.org/page/SSHSetup
-[14] https://en.wikipedia.org/wiki/SSH_(Secure_Shell)
-[15] https://wiki.archlinux.org/index.php/QEMU
-[16] https://qemu-project.gitlab.io/qemu/user/index.html
-[17] https://wiki.qemu.org/Documentation/Networking
-[18] https://en.wikipedia.org/wiki/QEMU
-[19] https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine
-[20] https://en.wikipedia.org/wiki/Xen
-[21] https://blog.wikichoon.com/2016/01/qemusystem-vs-qemusession.html
-[22] https://en.wikipedia.org/wiki/Libvirt
-[23] https://en.wikipedia.org/wiki/LXC
+- [1] https://man.archlinux.org/man/virt-manager.1
+- [2] https://developer.gnome.org/gtk2/stable/gtk-running.html
+- [3] https://libvirt.org/uri.html
+- [4] https://en.wikipedia.org/wiki/Hypervisor
+- [5] https://fedoraproject.org/wiki/How_to_debug_Virtualization_problems
+- [6] https://wiki.debian.org/libvirt/Debugging
+- [7] https://en.wikipedia.org/wiki/Virtual_Machine_Manager
+- [8] https://docs.oracle.com/cd/E26996_01/E18549/html/VMUSG1194.html
+- [9] https://en.wikipedia.org/wiki/Virtual_Machine_Manager
+- [10] https://en.wikipedia.org/wiki/GTK
+- [11] https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
+- [12] https://en.wikipedia.org/wiki/Virtual_machine
+- [13] https://wiki.libvirt.org/page/SSHSetup
+- [14] https://en.wikipedia.org/wiki/SSH_(Secure_Shell)
+- [15] https://wiki.archlinux.org/index.php/QEMU
+- [16] https://qemu-project.gitlab.io/qemu/user/index.html
+- [17] https://wiki.qemu.org/Documentation/Networking
+- [18] https://en.wikipedia.org/wiki/QEMU
+- [19] https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine
+- [20] https://en.wikipedia.org/wiki/Xen
+- [21] https://blog.wikichoon.com/2016/01/qemusystem-vs-qemusession.html
+- [22] https://en.wikipedia.org/wiki/Libvirt
+- [23] https://en.wikipedia.org/wiki/LXC
