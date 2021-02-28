@@ -145,7 +145,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 ### The window "Add Connection" (the main window of Virtual Machine Manager > the main menu > "File" > "Add connection...")
 
-(37) The option "Hypervisor" – allows to select the hypervisor to connect to (?). For options available within the drop-down menu of this option, see below.
+(37) The option "Hypervisor" – allows to select the hypervisor to connect to (?). For options available in the drop-down menu of this option, see below.
 
 (38) The option "Connect to remote host over SSH" – most probably allows to connect to a remote host over the SSH protocol. [[13]](#13) may be related. This option is available only when one of the following options is selected in the option 37: "QEMU/KVM", "Xen", "Libvirt-LXC". For options of this option, see below. For more information about the SSH protocol, see [[14]](#14).
 
@@ -161,7 +161,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 (44) The option "Custom URI" – allows to specify a custom URI for the connection.
 
-- **The drop-down menu "Hypervisor"**
+- **The drop-down menu of the option "Hypervisor"**
 
     (45) The option "QEMU/KVM" – allows to specify that the hypervisor to connect to is a "QEMU/KVM" hypervisor (?); I am not sure whether the character string "QEMU/KVM" should be treated as one "hypervisor" or not. Selecting this value in the drop-down menu "Hypervisor" generates the URI `qemu:///system`; for the difference between the URIs `qemu:///session` and the URI `qemu:///system`, see [[21]](#21).
 
