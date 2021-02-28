@@ -70,6 +70,8 @@ pre {
 
 @media (max-width: 800px) {
     .post {
+        margin-left: 10px;
+        margin-right: 20px;
         max-width: calc(100vw - 10px - 20px);
     }
 }
