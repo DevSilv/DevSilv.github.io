@@ -147,7 +147,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 (37) The option "Hypervisor" – allows to select the hypervisor to connect to (?). For options available within the drop-down menu of this option, see below.
 
-(38) The option "Connect to remote host over SSH" – most probably allows to connect to a remote host over the SSH protocol. [[13]](#13) may be related. This option is available only when one of the following options is selected in the option 37: "QEMU/KVM", "Xen", "Libvirt-LXC". For options available within this option, see below. For more information about the SSH protocol, see [[14]](#14).
+(38) The option "Connect to remote host over SSH" – most probably allows to connect to a remote host over the SSH protocol. [[13]](#13) may be related. This option is available only when one of the following options is selected in the option 37: "QEMU/KVM", "Xen", "Libvirt-LXC". For options of this option, see below. For more information about the SSH protocol, see [[14]](#14).
 
 (39) The option "Autoconnect" – most probably allows to specify whether the connection should be established automatically when Virtual Machine Manager starts. Option 100 may be related.
 
@@ -245,7 +245,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
     (75) The option "Customize configuration before install" – TODO
 
-    (76) The option "Network selection" – TODO. For options within this option, see the option 384.
+    (76) The option "Network selection" – TODO. For options of this option, see the option 384.
 
 ### The window "Locate ISO media volume" (the main window of Virtual Machine Manager > the main menu > "File" > "New Virtual Machine" > "Forward" > Browse...")
 
