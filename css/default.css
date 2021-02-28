@@ -10,6 +10,38 @@ a:focus {
     background-color: lightgrey;
 }
 
+blockquote {
+    border-left: 5px solid grey;
+    padding-left: 10px;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+kbd {
+    background-color: beige;
+    font-weight: bold;
+
+    padding: 2px;
+    border: 1px solid black;
+}
+
+code {
+    /* Override default values of the CODE element */
+
+    background: beige;
+
+    font-size: 1rem;
+    /* The default line height in Firefox 86.0 seems to be 19px,
+    so we add 2px for the borders and 2px for the empty space between
+    the lines */
+    line-height: 23px;
+    border: 1px solid grey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .container {
     /* overflow-wrap: break-word; */
    
