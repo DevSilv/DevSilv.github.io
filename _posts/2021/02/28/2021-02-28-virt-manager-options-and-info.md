@@ -13,7 +13,7 @@ This article is to be a simple overview of, and my comment to, all the options a
 
 I would like to put emphasis rather on comprehensiveness (all the options and information) than on the details of particular options and pieces of information. None of the descriptions of options and information should be treated as documentation.
 
-The Virtual Machine Manager version described is 3.2.0. Both CLI and GUI options and information are included. For general information about the Virtual Machine Manager utility, see [9].
+The Virtual Machine Manager version described is 3.2.0. Both CLI and GUI options and information are included. For general information about the Virtual Machine Manager utility, see [[9]](#9).
 
 ## Disclaimer
 
@@ -23,27 +23,27 @@ The Virtual Machine Manager version described is 3.2.0. Both CLI and GUI options
 
 These options are available when running Virtual Machine Manager from the console.
 
-(1) As per [1], "standard GTK options like --g-fatal-warnings are accepted". I am not sure what these options are. Some details about some CLI options available for GTK+ applications can be found in [2]. For more information about the GTK toolkit itself, see [10].
+(1) As per [[1]](#1), "standard GTK options like --g-fatal-warnings are accepted". I am not sure what these options are. Some details about some CLI options available for GTK+ applications can be found in [[2]](#2). For more information about the GTK toolkit itself, see [[10]](#10).
 
-(2) `-h` or `--help` – displays a help message. [1]
+(2) `-h` or `--help` – displays a help message. [[1]](#1)
 
-(3) `--version` – displays the version of the Virtual Machine Manager that was invoked with this option. [1]
+(3) `--version` – displays the version of the Virtual Machine Manager that was invoked with this option. [[1]](#1)
 
-(4) `-c`, `--connect` – connects to the hypervisor using a specified URI. [1] For more information about connecting to a hypervisor using URIs and libvirt, see [3]. For more information about hypervisors, see [4]. For more information about URIs, see [11].
+(4) `-c`, `--connect` – connects to the hypervisor using a specified URI. [[1]](#1) For more information about connecting to a hypervisor using URIs and libvirt, see [[3]](#3). For more information about hypervisors, see [[4]](#4). For more information about URIs, see [[11]](#11).
 
-(5) `--debug` – as per [1], it displays "debugging output" in the console. I am not sure what this output may consists of. This option is also mentioned in [6].
+(5) `--debug` – as per [[1]](#1), it displays "debugging output" in the console. I am not sure what this output may consists of. This option is also mentioned in [[6]](#6).
 
-(6) `--no-fork` – as per [1], it makes Virtual Machine Manager not forked off into the background. I am not sure what it actually means. This option is also mentioned in [5] and [6].
+(6) `--no-fork` – as per [[1]](#1), it makes Virtual Machine Manager not forked off into the background. I am not sure what it actually means. This option is also mentioned in [[5]](#5) and [[6]](#6).
 
-(7) `--show-domain-creator` – as per [1], it displays "the wizard for creating new virtual machines". I am not sure what the word "domain" refers to; for one possible explanation of this term, see [8]. For more information about virtual machines, see [12].
+(7) `--show-domain-creator` – as per [[1]](#1), it displays "the wizard for creating new virtual machines". I am not sure what the word "domain" refers to; for one possible explanation of this term, see [[8]](#8). For more information about virtual machines, see [[12]](#12).
 
-(8) `--show-domain-editor NAME|ID|UUID` – as per [1], it displays "the dialog for editing properties of the virtual machine with unique ID matching either the domain name, ID, or UUID". I am not sure what the word "domain" refers to.
+(8) `--show-domain-editor NAME|ID|UUID` – as per [[1]](#1), it displays "the dialog for editing properties of the virtual machine with unique ID matching either the domain name, ID, or UUID". I am not sure what the word "domain" refers to.
 
-(9) `--show-domain-performance NAME|ID|UUID` – as per [1], it displays "the dialog for monitoring performance of the virtual machine with unique ID matching either the domain name, ID, or UUID". I am not sure what the word "domain" refers to.
+(9) `--show-domain-performance NAME|ID|UUID` – as per [[1]](#1), it displays "the dialog for monitoring performance of the virtual machine with unique ID matching either the domain name, ID, or UUID". I am not sure what the word "domain" refers to.
 
-(10) `--show-domain-console NAME|ID|UUID` – as per [1], it displays "the virtual console of the virtual machine with unique ID matching either the domain name, ID, or UUID". I am not sure what the word "domain" refers to.
+(10) `--show-domain-console NAME|ID|UUID` – as per [[1]](#1), it displays "the virtual console of the virtual machine with unique ID matching either the domain name, ID, or UUID". I am not sure what the word "domain" refers to.
 
-(11) `--show-host-summary` – as per [1], it displays "the host/connection details window".
+(11) `--show-host-summary` – as per [[1]](#1), it displays "the host/connection details window".
 
 ## GUI options
 
@@ -55,7 +55,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
     - The menu "File"
 
-        (1) The option "Add connection..." – opens the window "Add Connection". This window most probably facilitates adding a connection to a hypervisor (?) (note that, for example, libvirt's documentation mentions in [3] that a "connection" may refer to a "driver"). For options available within this window, see below.
+        (1) The option "Add connection..." – opens the window "Add Connection". This window most probably facilitates adding a connection to a hypervisor (?) (note that, for example, libvirt's documentation mentions in [[3]](#3) that a "connection" may refer to a "driver"). For options available within this window, see below.
 
         (2) The option "New Virtual Machine" – opens the window of the creator "Create a new virtual machine". For options available within this window, see below.
 
@@ -147,7 +147,7 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 (37) The option "Hypervisor" – allows to select the hypervisor to connect to (?). For options available within the drop-down menu of this option, see below.
 
-(38) The option "Connect to remote host over SSH" – most probably allows to connect to a remote host over the SSH protocol. [13] may be related. This option is available only when one of the following options is selected in the option 37: "QEMU/KVM", "Xen", "Libvirt-LXC". For options available within this option, see below. For more information about the SSH protocol, see [14].
+(38) The option "Connect to remote host over SSH" – most probably allows to connect to a remote host over the SSH protocol. [[13]](#13) may be related. This option is available only when one of the following options is selected in the option 37: "QEMU/KVM", "Xen", "Libvirt-LXC". For options available within this option, see below. For more information about the SSH protocol, see [[14]](#14).
 
 (39) The option "Autoconnect" – most probably allows to specify whether the connection should be established automatically when Virtual Machine Manager starts. Option 100 may be related.
 
@@ -157,19 +157,19 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 (42) The button "Connect" – closes the window "Add Connection" and connects.
 
-(43) The warning "QEMU usermode session..." – it reads: "QEMU usermode session is not the virt-manager default. It is likely that any pre-existing QEMU/KVM guests will not be available. Networking options are very limited." I am not sure what it means. I am not sure whether it is related, but the word "usermode" occurs several times in [15], and the word "user-mode" occurs in [16]. For more information about networking regarding QEMU use, see [17]. For more information about QEMU, see [18]. For more information about KVM, see [19].
+(43) The warning "QEMU usermode session..." – it reads: "QEMU usermode session is not the virt-manager default. It is likely that any pre-existing QEMU/KVM guests will not be available. Networking options are very limited." I am not sure what it means. I am not sure whether it is related, but the word "usermode" occurs several times in [[15]](#15), and the word "user-mode" occurs in [[16]](#16). For more information about networking regarding QEMU use, see [[17]](#17). For more information about QEMU, see [[18]](#18). For more information about KVM, see [[19]](#19).
 
 (44) The option "Custom URI" – allows to specify a custom URI for the connection.
 
 - The drop-down menu "Hypervisor"
 
-    (45) The option "QEMU/KVM" – allows to specify that the hypervisor to connect to is a "QEMU/KVM" hypervisor (?); I am not sure whether the character string "QEMU/KVM" should be treated as one "hypervisor" or not. Selecting this value in the drop-down menu "Hypervisor" generates the URI `qemu:///system`; for the difference between the URIs `qemu:///session` and the URI `qemu:///system`, see [21].
+    (45) The option "QEMU/KVM" – allows to specify that the hypervisor to connect to is a "QEMU/KVM" hypervisor (?); I am not sure whether the character string "QEMU/KVM" should be treated as one "hypervisor" or not. Selecting this value in the drop-down menu "Hypervisor" generates the URI `qemu:///system`; for the difference between the URIs `qemu:///session` and the URI `qemu:///system`, see [[21]](#21).
 
-    (46) The option "QEMU/KVM user session" – allows to specify what hypervisor to connect to (?); I am not sure whether the character string "QEMU/KVM user session" should be treated either as a separate hypervisor, or one equivalent with the character string "QEMU/KVM" in option 45, or differently. Selecting this value in the drop-down menu "Hypervisor" generates the URI `qemu:///session`; for the difference between the URIs `qemu:///session` and the URI `qemu:///system`, see [21].
+    (46) The option "QEMU/KVM user session" – allows to specify what hypervisor to connect to (?); I am not sure whether the character string "QEMU/KVM user session" should be treated either as a separate hypervisor, or one equivalent with the character string "QEMU/KVM" in option 45, or differently. Selecting this value in the drop-down menu "Hypervisor" generates the URI `qemu:///session`; for the difference between the URIs `qemu:///session` and the URI `qemu:///system`, see [[21]](#21).
 
-    (47) The option "Xen" – allows to specify that the hypervisor to connect to is a Xen hypervisor (?). Selecting this value in the drop-down menu "Hypervisor" generates the URI `xen:///`. For more information about the Xen hypervisor, see [20].
+    (47) The option "Xen" – allows to specify that the hypervisor to connect to is a Xen hypervisor (?). Selecting this value in the drop-down menu "Hypervisor" generates the URI `xen:///`. For more information about the Xen hypervisor, see [[20]](#20).
 
-    (48) The option "Libvirt-LXC" – allows to specify that the hypervisor to connect to is a "Libvirt-LXC" hypervisor (?); I am not sure whether the character string "Libvirt-LXC" should be treated as one "hypervisor" or not. Selecting this value in the drop-down menu "Hypervisor" generates the URI `lxc:///`. For more information about libvirt, see [22]. For more information about LXC, see [23].
+    (48) The option "Libvirt-LXC" – allows to specify that the hypervisor to connect to is a "Libvirt-LXC" hypervisor (?); I am not sure whether the character string "Libvirt-LXC" should be treated as one "hypervisor" or not. Selecting this value in the drop-down menu "Hypervisor" generates the URI `lxc:///`. For more information about libvirt, see [[22]](#22). For more information about LXC, see [[23]](#23).
 
     (49) The option "Custom URI..." – allows to specify a custom URI for the connection.
 
@@ -1685,48 +1685,48 @@ These menus, toolbars, windows, options and pieces of information are available 
 
 ## Sources
 
-[1] https://man.archlinux.org/man/virt-manager.1
+<a id="1">[1]</a> https://man.archlinux.org/man/virt-manager.1
 
-[2] https://developer.gnome.org/gtk2/stable/gtk-running.html
+<a id="2">[2]</a> https://developer.gnome.org/gtk2/stable/gtk-running.html
 
-[3] https://libvirt.org/uri.html
+<a id="3">[3]</a> https://libvirt.org/uri.html
 
-[4] https://en.wikipedia.org/wiki/Hypervisor
+<a id="4">[4]</a> https://en.wikipedia.org/wiki/Hypervisor
 
-[5] https://fedoraproject.org/wiki/How_to_debug_Virtualization_problems
+<a id="5">[5]</a> https://fedoraproject.org/wiki/How_to_debug_Virtualization_problems
 
-[6] https://wiki.debian.org/libvirt/Debugging
+<a id="6">[6]</a> https://wiki.debian.org/libvirt/Debugging
 
-[7] https://en.wikipedia.org/wiki/Virtual_Machine_Manager
+<a id="7">[7]</a> https://en.wikipedia.org/wiki/Virtual_Machine_Manager
 
-[8] https://docs.oracle.com/cd/E26996_01/E18549/html/VMUSG1194.html
+<a id="8">[8]</a> https://docs.oracle.com/cd/E26996_01/E18549/html/VMUSG1194.html
 
-[9] https://en.wikipedia.org/wiki/Virtual_Machine_Manager
+<a id="9">[9]</a> https://en.wikipedia.org/wiki/Virtual_Machine_Manager
 
-[10] https://en.wikipedia.org/wiki/GTK
+<a id="10">[10]</a> https://en.wikipedia.org/wiki/GTK
 
-[11] https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
+<a id="11">[11]</a> https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
 
-[12] https://en.wikipedia.org/wiki/Virtual_machine
+<a id="12">[12]</a> https://en.wikipedia.org/wiki/Virtual_machine
 
-[13] https://wiki.libvirt.org/page/SSHSetup
+<a id="13">[13]</a> https://wiki.libvirt.org/page/SSHSetup
 
-[14] https://en.wikipedia.org/wiki/SSH_(Secure_Shell)
+<a id="14">[14]</a> https://en.wikipedia.org/wiki/SSH_(Secure_Shell)
 
-[15] https://wiki.archlinux.org/index.php/QEMU
+<a id="15">[15]</a> https://wiki.archlinux.org/index.php/QEMU
 
-[16] https://qemu-project.gitlab.io/qemu/user/index.html
+<a id="16">[16]</a> https://qemu-project.gitlab.io/qemu/user/index.html
 
-[17] https://wiki.qemu.org/Documentation/Networking
+<a id="17">[17]</a> https://wiki.qemu.org/Documentation/Networking
 
-[18] https://en.wikipedia.org/wiki/QEMU
+<a id="18">[18]</a> https://en.wikipedia.org/wiki/QEMU
 
-[19] https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine
+<a id="19">[19]</a> https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine
 
-[20] https://en.wikipedia.org/wiki/Xen
+<a id="20">[20]</a> https://en.wikipedia.org/wiki/Xen
 
-[21] https://blog.wikichoon.com/2016/01/qemusystem-vs-qemusession.html
+<a id="21">[21]</a> https://blog.wikichoon.com/2016/01/qemusystem-vs-qemusession.html
 
-[22] https://en.wikipedia.org/wiki/Libvirt
+<a id="22">[22]</a> https://en.wikipedia.org/wiki/Libvirt
 
-[23] https://en.wikipedia.org/wiki/LXC
+<a id="23">[23]</a> https://en.wikipedia.org/wiki/LXC
