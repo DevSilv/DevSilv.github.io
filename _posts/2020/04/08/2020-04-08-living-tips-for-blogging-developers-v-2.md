@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tips for blogging developers v.2"
+title: "[living] Tips for blogging developers v.2"
 date: 2020-04-08
 tags: Software-development Blogging Update
 ---
@@ -24,6 +24,10 @@ This article contains tips on how to write a good article, for example on a blog
 As such, it's intended for programmers, software testers, people of similar background or profession, and for people that are just interested in improving their technical writing skills.
 
 (But it may be that it'll be useful also for non-technical-writing bloggers.)
+
+---
+
+**Info:** This document is a [living document](https://en.wikipedia.org/wiki/Living_document) — that is, it may be changed in the future. For the list of changes, see particular commits involving changes to this article within the project's repository.
 
 ## Four disclaimers before we start
 
@@ -201,6 +205,12 @@ If you speak about other people:
 - **If you write "it is believed"**, you probably want to say "they say so, but I am not sure". But be careful whether this doesn't start to mean "nobody is sure, but they say so".
 - **If you write "somebody wanted to do something"**, you probably want to say "somebody did something". But be careful whether this doesn't start to mean "somebody wanted to do something, but nobody can say whether they really did".
 - **If you write "it seems to be"**, you probably want to say "I think it is, and you can think so, but I'm not sure". But be careful whether this doesn't start to mean "I think it is, but I'm not sure, so you shouldn't think so".
+
+To avoid these problems, make it clear whether every statement you make is either:
+
+- your own opinion,
+- an opinion of others,
+- or a proved fact.
 
 #### 17. Choose words that you already use.
 
