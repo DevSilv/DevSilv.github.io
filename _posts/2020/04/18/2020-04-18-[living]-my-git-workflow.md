@@ -79,7 +79,7 @@ I've grouped the workflow's description into 4 sections: the first section cover
 1. A branch other than the "master" branch is to be created:
     1. When? — before starting the development of the release.
     2. From what branch? — from the "master" branch.
-    3. With what name? — "release-_n_", where _n_ is the version number of the version of the software, the result of the work on which version the branch represents. <a id="6top" href="#6bottom">[6]</a>
+    3. With what name? — "release-_n_", where _n_ is the number of the version of the software, the result of the work on which version the branch represents. <a id="6top" href="#6bottom">[6]</a>
 
 #### Merging branches
 
@@ -104,6 +104,7 @@ I've grouped the workflow's description into 4 sections: the first section cover
 1. A lightweight tag is to be created:
     1. When? — as soon as the branch that corresponds to the release that corresponds to the version of the software that the tag corresponds to is merged and deleted.
     2. On what commit? — the commit that has been created last within the branch that corresponds to the release that corresponds to the version of the software that the tag corresponds to.
+    3. With what name? — "v*n*", where _n_ is the number of the version of the software that this tag corresponds to.
 
 #### Deleting tags
 
