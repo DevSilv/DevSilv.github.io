@@ -1,6 +1,6 @@
-In this article, I want to present a set of questions that express some programming and JavaScript aspects and ideas that I consider important.
+In this article, I want to present a set of questions that express some software development and JavaScript aspects and ideas that I consider important.
 
-Although I have been gathering the information for a long time, I decided that it must be dated on the year of publishing – because the programming and JavaScript worlds are constantly changing.
+Although I have been gathering the information for a long time, I decided that it must be dated on the year of publishing – because the software development and JavaScript worlds are constantly changing.
 
 ## Three disclaimers before we start
 
