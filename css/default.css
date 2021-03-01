@@ -19,18 +19,11 @@ blockquote p {
     font-style: italic;
 }
 
-kbd {
-    background-color: beige;
-    font-weight: bold;
-
-    padding: 2px;
-    border: 1px solid black;
-}
-
+kbd,
 code {
-    /* Override default values of the CODE element */
+    /* Override default values of the KBD and CODE elements */
 
-    background: beige;
+    background-color: beige;
 
     font-size: 1rem;
     /* The default line height in Firefox 86.0 seems to be 19px,
