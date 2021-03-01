@@ -2,24 +2,24 @@
 function hideResults(event) {
     if (event.relatedTarget === null ||
         !event.relatedTarget.classList.contains("search-form__results-list__item__link")) {
-        $("#search-form__results-list").hide();
+        document.getElementById("search-form__results-list").style.display = "none";
     }
 }
 
 // onfocus
 function showResults() {
-    const resultsElement = $("#search-form__results-list");
-    if (resultsElement.text() != "") {
-        resultsElement.show();
+    const resultsElement = document.getElementById("search-form__results-list");
+    if (resultsElement.innerHTML != "") {
+        resultsElement.style.display = "block";
     }
 }
 
 // onkeyup
 function search(noResultsText) {
-    const resultsElement = $("#search-form__results-list");
-    if ($("#search-form__input").val() != "") {
+    const resultsElement = document.getElementById("search-form__results-list");
+    if (document.getElementById("search-form__input").value != "") {
         displaySearchResults(noResultsText);
     } else {
-        resultsElement.hide();
+        resultsElement.style.display = "none";
     }
 }

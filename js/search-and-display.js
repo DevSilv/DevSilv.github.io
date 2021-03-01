@@ -1,6 +1,6 @@
 function searchAndDisplay(noResultsText) {
-    const input = $(".search-form__input");
-    const resultsListElement = $(".search-form__results-list");
+    const input = document.getElementById("search-form__input");
+    const resultsListElement = document.getElementById("search-form__results-list");
 
     // const xhr = new XMLHttpRequest();
     // xhr.onreadystatechange = function() {
@@ -8,13 +8,13 @@ function searchAndDisplay(noResultsText) {
     $.get("/rss.xml", function (data) {
         console.log(data);
         console.log(data.toSource());
-        resultsListElement.empty();
+        resultsListElement.innerHTML = "";
 
         // const data = this.response;
         const xml = new DOMParser().parseFromString(data, "text/xml");
         const resultsList = [];
         const articlesList = xml.getElementsByTagName("item");
-        const query = new RegExp(input.val(), 'gi');
+        const query = new RegExp(input.value, 'gi');
 
         for (let article of articlesList) {
             const titleElement = article.getElementsByTagName("title")[0];
@@ -48,7 +48,7 @@ function searchAndDisplay(noResultsText) {
             resultsListElement.append(resultListItemElement);
         }
 
-        resultsListElement.show();
+        resultsListElement.style.display = "block";
     }, "xml");
     // }
     // };

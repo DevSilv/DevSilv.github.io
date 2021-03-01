@@ -1,16 +1,16 @@
 function displaySearchResults(noResultsText) {
-    const input = $("#search-form__input");
-    const resultsElement = $("#search-form__results-list");
+    const input = document.getElementById("search-form__input");
+    const resultsElement = document.getElementById("search-form__results-list");
 
     const xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
-            resultsElement.empty();
+            resultsElement.innerHTML = "";
             const data = this.response;
             const xml = new DOMParser().parseFromString(data, "text/xml");
             const results = [];
             const articles = xml.getElementsByTagName("item");
-            const query = new RegExp(input.val(), 'gi');
+            const query = new RegExp(input.value, 'gi');
             for (let article of articles) {
                 const titleElement = article.getElementsByTagName("title")[0];
                 const title = titleElement.textContent;
@@ -31,7 +31,7 @@ function displaySearchResults(noResultsText) {
                     rLink.classList.add(
                         "search-form__results-list__item__link"
                     );
-                    $(rLink).css("display", "block");
+                    rLink.style.display = "block";
                     const rElement = document.createElement("li");
                     rElement.append(rLink);
                     resultsElement.append(rElement);
@@ -42,7 +42,7 @@ function displaySearchResults(noResultsText) {
                 rElement.append(errorElement);
                 resultsElement.append(rElement);
             }
-            resultsElement.show();
+            resultsElement.style.display = "block";
         }
 
     };
